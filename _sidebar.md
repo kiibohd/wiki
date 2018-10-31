@@ -1,13 +1,15 @@
-- [Home](README.md)
-
 * [Quickstart](Quickstart.md)
+
+* Usage
+
+  - [Configuration](Configuration.md)
 
 * Keyboards
 
   - [K-Type](Keyboards/K-Type.md)
   - [Whitefox / Nightfox](Keyboards/WhiteFox.md)
 
-* Old Wiki
+* Development (Old Wiki)
 
   - Setup
     - [Windows Setup](WindowsSetup.md)
@@ -15,7 +17,7 @@
     - [Linux Setup](LinuxSetup.md)
   - Compilation
     - [Building](Building.md)
-    - [Configuration](Configuration.md)
+    - [Configuration](CMake.md)
   - Firmware
     - [How To Load Layouts to Keyboard](Loading.md)
     - [Debugging](Debugging.md)

@@ -9,5 +9,5 @@
 - KLL macros
 - Debug CLI
 
-[Usage](README)
+[Usage](Quickstart)
 [Development](Development)
