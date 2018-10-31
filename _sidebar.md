@@ -1,5 +1,7 @@
 - [Home](README.md)
 
+* [Quickstart](Quickstart.md)
+
 * Keyboards
 
   - [K-Type](Keyboards/K-Type.md)
