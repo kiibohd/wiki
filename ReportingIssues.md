@@ -1,17 +1,12 @@
 Sometimes your keyboard doesn't work as expected. In most cases you've just uncovered some odd firmware corner case bug. This wiki describes the sort of information you can provide so that other keyboard hackers can help you out more quickly.
 
-# General
+## General
 
 Here are various tools that are either already available on your computer or are relatively easy to acquire that provide very useful information.
 
-## Windows
+<!-- tabs:start -->
 
-TODO
-
-- lsusb equivlaent
-- dmesg event equivalent (shows a time-stamp'ish thing associated with USB insertion/removal events)
-
-## Linux
+#### ** Linux **
 
 Linux is probably the easiest to report.
 
@@ -401,14 +396,24 @@ TYPE=0/0/0
 USEC_INITIALIZED=101543266331
 ```
 
-## macOS
+#### ** Mac **
 
 TODO
 
 - lsusb thing
 - dmesg event equivalent (shows a time-stamp'ish thing associated with USB insertion/removal events)
 
-# Advanced
+#### ** Windows **
+
+TODO
+
+- lsusb equivlaent
+- dmesg event equivalent (shows a time-stamp'ish thing associated with USB insertion/removal events)
+
+
+<!-- tabs:end -->
+
+## Advanced
 
 If you really want to dive more deeply into reporting issues, here are a few things you can attempt. They require more knowledge about how things work, and perhaps even buying external tools to gather the information.
 

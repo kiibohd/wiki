@@ -15,8 +15,4 @@ For full information about the spec please read the linked pdf above.
 
 > NOTE: Don't use defaultMap.kll to change your layouts. This will work, but they will not be portable.
 
-For information on how to use and combine kll files please see the [[Configuration|Configuration]] page.
-
-### What's next
-
-Please see [[Building|Building]] for how to compile and install the firmware on a keyboard.
+For information on how to use and combine kll files please see the [Keymaps page](Keymaps.md).

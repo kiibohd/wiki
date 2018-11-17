@@ -2,7 +2,7 @@
 
 # Kiibohd Controller
 
-> A modular keyboard firmware that doesn't suck
+> A modular community keyboard firmware for everyone
 
 - N-key rollover
 - Individually addressable RGB animations

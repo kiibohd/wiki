@@ -1,12 +1,12 @@
 **Caveat:** It is unlikely this project will support the Teensy-LC as the SRAM specs are a bit on the low side (though it is possible)
 
-# Define your matrix
+## Define your matrix
 
 First you need to define your keyboard matrix. Refer to the [Deskthority wiki](http://deskthority.net/wiki/KiCAD_keyboard_PCB_design_guide) if you are unsure about how to connect the switches.
 
 From here you'll have an n x m matrix. Where n are the columns/strobes and m are rows/sense lines.
 
-# Choose pins on the Teensy
+## Choose pins on the Teensy
 
 You may choose any of the pins from 0 to 33; however, I recommend against using pin 13 as it is for the debug led (a lot harder to debug if things go really wrong). Pins 28 to 33 are on the underside of the Teensy PCB so they can be tricky to use unless you have a breakout pcb, like this [one](https://www.tindie.com/products/loglow/teensy-31-breakout/).
 
@@ -30,7 +30,7 @@ Unfortunately for us, [PJRC](http://pjrc.com) choose annoying names for all the 
 
 [More detailed Teensy 3 pin mappings](https://github.com/kiibohd/controller/blob/master/Lib/pin_map.teensy3)
 
-# Get the source code ready and compiling
+## Get the source code ready and compiling
 
 **Note**: I suggest you fork this git repository first, if anything it makes it easier to backup your code and ask for help.
 
@@ -38,7 +38,7 @@ Unfortunately for us, [PJRC](http://pjrc.com) choose annoying names for all the 
 2. Download the source code: `git clone https://github.com/kiibohd/controller.git`
 3. Try to build the default firmware to make sure everything is setup correctly: https://github.com/kiibohd/controller/wiki/Building
 
-# Create a new Scan Module
+## Create a new Scan Module
 
 Figure out what you want to call your keyboard. I'll be naming the example **kiilulz**. For most keyboards the easiest thing to do is to copy the **MD1** keyboard as it is a simple keyboard without any additional hardware features.
 
@@ -92,8 +92,8 @@ Macro/PartialMap/macro.c
 Output/pjrcUSB/output_com.c;Output/pjrcUSB/arm/usb_desc.c;Output/pjrcUSB/arm/usb_dev.c;Output/pjrcUSB/arm/usb_joystick.c;Output/pjrcUSB/arm/usb_keyboard.c;Output/pjrcUSB/arm/usb_mem.c;Output/pjrcUSB/arm/usb_mouse.c;Output/pjrcUSB/arm/usb_serial.c
 -- Detected Debug Module Source Files:
 Debug/cli/cli.c;Debug/led/led.c;Debug/print/print.c
--- Found Git: /usr/bin/git (found version "2.6.4") 
--- Found Ctags: /usr/bin/ctags (found version "5.8") 
+-- Found Git: /usr/bin/git (found version "2.6.4")
+-- Found Ctags: /usr/bin/ctags (found version "5.8")
 -- Detected Layout Files:
 /home/hyatt/Source/controller/Scan/MatrixARM/capabilities.kll
 /home/hyatt/Source/controller/Macro/PartialMap/capabilities.kll
@@ -139,7 +139,7 @@ Firmware has been compiled into: 'kiilulzing'
 /home/hyatt/Source/controller/Keyboards
 ```
 
-# Setup rows and columns
+## Setup rows and columns
 
 Now that the firmware compiles and we've created a separate Scan Module for changes, we can setup the firmware to use your defined rows and columns.
 
@@ -169,7 +169,7 @@ cd ../../Keyboards
 ./kiilulz.bash
 ```
 
-# Define the defaultMap.kll
+## Define the defaultMap.kll
 
 Normally, you'd have to calculate the Scan Code of every key manually and set what you want the key to be. Fortunately, I'm lazy, so I've made this easy to do.
 Since your firmware is nearly ready (except the defaultMap and layers) you can already start to try it out.
@@ -217,7 +217,7 @@ S is the prefix for Scan Codes and U is the prefix for USB codes.
 
 **Note**: USB defines all keys as USB ANSI, so international keys have too be mapped to their equivalent. There is an automatic KLL mapping planned at some point, please file/check issues to see the status of this.
 
-Once you've defined the full `defaultMap.kll` you should have a basic keyboard ready to go :D 
+Once you've defined the full `defaultMap.kll` you should have a basic keyboard ready to go :D
 
 ## Layers, Macros
 More advanced topics like Macros, Layers etc. are covered in next wiki page: [[Layers, Macros|Layers, Macros]].

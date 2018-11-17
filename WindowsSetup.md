@@ -1,32 +1,3 @@
-# Docker
-
-**Recommended (a)**
-
-The easiest option is to setup [Docker](../../controller/tree/master/Dockerfiles) for your computer and use a native Linux compiler to build/test the firmware.
-This should work for Windows 7+.
-
-You'll need to have `git` installed in order to download the source code.
-
-# Windows 10+ - Windows Subsystem for Linux
-
-**Recommended (b)**
-
-This is the next easiest option, just follow the instructions for [Ubuntu Linux](https://github.com/kiibohd/controller/wiki/Linux-Setup#ubuntu).
-
-All Linux steps apply. **Except** when it comes to DFU and loading the firmware onto the keyboard.
-
-# Windows 10 and Lower - Cygwin
-
-Building on Windows should be fine for 99% of users, but takes a bunch of work to setup (because Windows is a crappy dev environment).
-Cygwin is currently required along with some non-Cygwin compilers and utilities (because they are not available for Cygwin).
-The dfu Bootloader will not build because of a Make 3.81+ bug/feature that removed support for non-Unix (Windows) filenames as dependencies of targets.
-If you [replace the version of Make in Cygwin](http://stackoverflow.com/questions/601516/cygwin-make-error-target-pattern-contains-no) it should work.
-However, make sure that the flash size is no larger than 4096 Bytes or the bootloader will not work. Things will likely break if there are **SPACES IN YOUR PATHS**. I install cygwin to `C:\cygwin64`.
-If you are brave and have programming knowledge, I will accept patches to fix any issues
-regarding spaces in paths.
-
-## Cygwin
-
 First make sure Cygwin is installed - http://www.cygwin.com/ - 32bit or 64bit
 is fine. Make sure the following are installed:
 
@@ -107,7 +78,3 @@ Download `gcc-arm-none-eabi*win32.zip`.
 Then extract all the folders/files in the zip to the Cygwin `/usr/local` directory.
 Mine is `C:\cygwin64\usr\local`.
 Or, you can setup paths using the installer (you have to be more careful, avoid spaces in paths).
-
-# What's next
-
-Please see [[Configuration|Configuration]] to setup your keyboard.

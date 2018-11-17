@@ -11,10 +11,6 @@ There are two main package managers for Mac command line programs - ports, and h
 - Accept the Xcode license by opening it, or running `xcodebuild -license`.
 - Open a terminal for the following steps. Choose either the macports or homebrew section below - not both.
 
-**OR**
-
-- Install [Docker](../../tree/master/Dockerfiles) and follow these instructions after cloning the controller git repository.
-
 ### Homebrew
 
 Install homebrew - http://brew.sh/
@@ -74,7 +70,3 @@ sudo port install arm-none-eabi-binutils arm-none-eabi-gcc dfu-util
 ```
 
 If you don't know what to install, then install everything above. It won't hurt! :D
-
-### What's next
-
-Please see [[Configuration|Configuration]] to setup your keyboard.

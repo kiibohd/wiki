@@ -1,37 +1,56 @@
 * [Quickstart](Quickstart.md)
 
-* Usage
+* Supported Keyboards
+  - Inpub Club
+    - [Infinity 60%](Keyboards/Infinity60.md)
+    - [Infinity Ergodox](Keyboards/InfinityErgodox.md)
+    - [K-Type](Keyboards/K-Type.md)
+    - [Whitefox / Nightfox](Keyboards/WhiteFox.md)
+    - [Kira](Keyboards/Kira.md)
+    - [RE:Type](Keyboards/REType.md)
+  - Others
+    - [Gemini Dawn / Dusk](Keyboards/GeminiDawn.md)
 
-  - [Configuration](Configuration.md)
+* Configurator
+  - [Keys](Configurator/Keys.md)
+  - [LED Colors](Configurator/Colors.md)
+  - [Animations](Configurator/Animations.md)
+  - [Custom Animations](Configurator/CustomAnimations.md)
+  - [Actions](Configurator/Actions.md)
+  - [Layers](Configurator/Layers.md)
+  - [Macros](Configurator/Macros.md)
+  - [Undo](Configurator/Undo.md)
+  - [Loading / Saving](Configurator/LoadSave.md)
+  - [Custom KLL](Configurator/Kll.md)
 
-* Keyboards
+* Troubleshooting
+  - [FAQ](FAQ.md)
+  - [Unbricking](BOSSA.md)
+  - [Known USB Issues](Issues.md)
 
-  - [K-Type](Keyboards/K-Type.md)
-  - [Whitefox / Nightfox](Keyboards/WhiteFox.md)
+* Firmware (WIP)
+  * Building
+    - [Setup](Setup.md)
+      - [Docker](https://github.com/kiibohd/controller/tree/master/Dockerfiles)
+    - [Cygwin](WindowsSetup.md)
+    - [Compiling](https://github.com/kiibohd/controller/tree/master/Keyboards)
+    - [Flashing](Flashing.md)
+  - Configuration
+    - [Microcontroller](MCU.md)
+    - [Modules](Modules.md)
+    - [Keymaps](Keymaps.md)
+  - Debugging
+    - [Virual Serial Port](Debugging.md)
+    - [UART](UARTDebugging.md)
+    - [GDB](GDB.md)
+  - Architecture
+    - [Build Architecture](BuildArchitecture.md)
+    - [Test Architecture](TestArchitecture.md)
+    - [Memory Layout](Ld.md)
+  - [Bootloader](Bootloader.md)
+  - [Custom Keyboard](Teensy.md)
+  - [Reporting Issues](ReportingIssues.md)
 
-* Development (Old Wiki)
-
-  - Setup
-    - [Windows Setup](WindowsSetup.md)
-    - [Mac Setup](MacSetup.md)
-    - [Linux Setup](LinuxSetup.md)
-  - Compilation
-    - [Building](Building.md)
-    - [Configuration](CMake.md)
-  - Firmware
-    - [How To Load Layouts to Keyboard](Loading.md)
-    - [Debugging](Debugging.md)
-    - [External Debugging](UARTDebugging.md)
-    - [Reporting Issues](ReportingIssues.md)
-    - [Known USB Issues](Issues.md)
-  - Customization
-    - [KLL](Kll.md)
-    - [Custom Keyboard using a Teensy 3.0 3.1 3.2](Teensy.md)
-    - [Layers, Macros](Layers.md)
-  - Advanced Topics
-    - [Bootloader](Bootloader.md)
-
-* Architecture
-
-  - [Build Architecture](BuildArchitecture.md)
-  - [Test Architecture](TestArchitecture.md)
+* KLL (WIP)
+  - [Intro](Kll.md)
+  - [Layers, Macros](Layers.md)

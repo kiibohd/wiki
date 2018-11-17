@@ -1,5 +1,3 @@
-# Build Architecture
-
 The main purpose of this git repository is to build firmware for ARM Cortex-based microcontrollers.
 The main compiler is `arm-none-eabi-gcc`; however, there is some support for `clang` as well on some platforms (primarily Linux).
 

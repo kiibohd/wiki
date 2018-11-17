@@ -113,7 +113,9 @@ Unless you have setup differently the default serial settings are (both the keyb
 - No parity
 - 1 stop bit
 
-### Linux
+<!-- tabs:start -->
+
+#### ** Linux **
 
 I generally like to use `screen` for serial ports on Linux, and it's the easiest to configure.
 What you are looking for is something like `/dev/ttyUSB0`.
@@ -122,10 +124,12 @@ What you are looking for is something like `/dev/ttyUSB0`.
 screen /dev/ttyUSB0 115200 8N1
 ```
 
-You may need root privileges if you haven't setup udev rules for the device.
+?> Note: You will need sudo/root priviledges if you haven't
+installed the `98-kiibohd.rules` file to `/etc/udev/rules.d`.
+
 To exit, just kill the screen session. Ctrl+a, then k, then y.
 
-### Mac OS X
+#### ** Mac **
 
 Screen is also available on Mac OS X through services such as Macports and Brew. I believe you'll be looking for something like `/dev/tty.<usb something>`. Afaik, this is not very predictable.
 
@@ -135,7 +139,7 @@ screen /dev/tty.usbsomething 115200 8N1
 
 To exit, just kill the screen session. Ctrl+a, then k, then y.
 
-### Windows
+#### ** Windows **
 
 Sadly `screen` doesn't work well with serial ports under Windows, so I recommend [putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
 
@@ -150,7 +154,11 @@ putty works well when using DTR/DSR or RTS/CTS flow control.
 | Speed           | 15200                    |
 
 If stuff is hard to read (you have a dumb colour scheme):
-`Category->Window->Colours->Use system color`. That seems to make text at least readable.
+`Category->Window->Colours->Use system color`.
+
+That seems to make text at least readable.
+
+<!-- tabs:end -->
 
 ## Bus Pirate
 

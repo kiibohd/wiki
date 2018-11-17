@@ -6,7 +6,7 @@ This here is just a short, practical guide. These topics are the advanced featur
 
 **TODO and WIP..**
 
-# Macros
+## Macros
 
 Macros let you execute a combination of keys and are defined with + sign.
 
@@ -18,7 +18,7 @@ U'F2' : U"Alt" + U"F5";
 U'F3' : U"Ctrl" + U"Alt" + U"Delete";
 ```
 
-# Sequences
+## Sequences
 
 Sequences let you execute key presses one after another.
 
@@ -47,7 +47,7 @@ E.g. a sequence of Ctrl press and then Alt, could do something, like e.g. change
 U"Ctrl", U"Alt" : layerLock(1);
 ```
 
-# Layers
+## Layers
 
 As we know the base layer is defined in defaultMap.kll.
 
@@ -102,7 +102,7 @@ There are other possible Function1 key **behaviours**:
 I should also mention that layers are **stacked**.
 So, if you press layerLock(1) and then layerLock(2), you'll access keys from 3rd layer, and if not found then from 2nd, then if not found, from defaultMap. If you press layerLock(2), it will turn off 3rd layer (remove it from stack) and go back to 2nd layer, until you press layerLock(1).
 
-# Capabilities
+## Capabilities
 
 **TODO**
 

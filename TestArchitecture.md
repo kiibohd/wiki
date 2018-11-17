@@ -1,5 +1,3 @@
-# Test Architecture
-
 Host-side KLL support was design around testing some of the major general-purpose features of KLL.
 Most notably state scheduling and pixel (LED) support.
 Both of these features have near limitless configuration permutations, so an automated method of testing was devised to speed up testing and reduce regressions.

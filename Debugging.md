@@ -1,11 +1,10 @@
 The kiibohd firmware provides a virtual console that can be used to send commands to the keyboard (reboot to bootloader, change layers, etc) and to see output (useful for debugging your matrix, etc).
 
-## Virtual Serial Port - CLI
+## Connecting
 
-Rather than use a special program that can interpret Raw HID, this controller exposes a USB Serial CDC endpoint.
-This allows for you to use a generic serial terminal to debug/control the keyboard firmware (e.g. Tera Term, minicom, screen)
+<!-- tabs:start -->
 
-### Linux
+#### ** Linux **
 
 I generally use screen, although minicom or other serial viewers will probably work.
 
@@ -14,12 +13,10 @@ $ screen /dev/ttyACM0
 # (Might be ACM1, ACM2, etc.)
 ```
 
-Note: You will need sudo/root priviledges if you haven't
+?> Note: You will need sudo/root priviledges if you haven't
 installed the `98-kiibohd.rules` file to `/etc/udev/rules.d`.
 
-To exit the screen program you can use `Ctrl + a`, followed by `k` and confirming with `y`.
-
-### Mac OS X
+#### ** Mac **
 
 I recommend screen (can be installed via Macports).
 
@@ -29,7 +26,7 @@ $ screen /dev/tty.<usb something>
 
 Note: Screen can be installed with macports or homebrew. See [[Mac Setup|Mac Setup]].
 
-### Windows
+#### ** Windows **
 
 Make sure the [Teensy Virtual Serial Port driver](http://pjrc.com/teensy/serial_install.exe) is installed. If possible use
 screen (as part of Cygwin). Check which COM port the virtual serial port has
@@ -64,6 +61,10 @@ $ screen /dev/ttyS2
 
 Gnu screen doesn't seem to echo all the characters (it works though).
 I believe it's a problem with stty, but I don't know how to fix it...
+
+<!-- tabs:end -->
+
+To exit the screen program you can use `Ctrl + a`, followed by `k` and confirming with `y`.
 
 ## Commands
 
@@ -123,5 +124,3 @@ Matrix Module Commands
  matrixState  Prints out the current scan table N times.
                  O - Off, P - Press, H - Hold, R - Release, I - Invalid
 ```
-
-**TODO:** Add other debugging methods besides the serial console.
