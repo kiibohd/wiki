@@ -29,6 +29,10 @@ Layer 2 is accessible with by holding right <kbd>Ctrl</kbd> + <kbd>Alt</kbd>
 
 ![ring](../images/Kira%20Back%20Frame%20off.jpg "Kira With Ring Removed")
 
+Easily remove the ring from the Kira by gently lifting from the back until it releases and then the front to remove it entirely.
+
+To replace the ring, gently attach the front and lower the back until it snaps into place.
+
 [hotswap](../Hotswap.md ':include')
 
 ## Unbricking
