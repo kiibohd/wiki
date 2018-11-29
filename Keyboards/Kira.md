@@ -27,7 +27,7 @@ Layer 2 is accessible with by holding right <kbd>Ctrl</kbd> + <kbd>Alt</kbd>
 
 ## Changing the ring
 
-TODO
+![ring](../images/Kira%20Back%20Frame%20off.jpg "Kira With Ring Removed")
 
 [hotswap](../Hotswap.md ':include')
 
