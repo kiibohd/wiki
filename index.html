@@ -64,6 +64,33 @@
 	    preview.children[i].style.display = (i == state) ? "inline-block" : "none";
         }
     }
+
+    function parseColor(color) {
+        return [
+          parseInt(color.substr(1,2), 16),
+          parseInt(color.substr(3,2), 16),
+          parseInt(color.substr(5,2), 16)
+        ];
+    }
+
+    function reverseGamma(gamma, r, g, b) {
+      return [
+        Math.round(Math.pow(r/255, 1/gamma) * 255),
+        Math.round(Math.pow(g/255, 1/gamma) * 255),
+        Math.round(Math.pow(b/255, 1/gamma) * 255)
+      ];
+    }
+
+    function correctColors(gamma) {
+      let elements = document.getElementsByClassName("color");
+      for (var i=0; i<elements.length; i++) {
+        // Correct for a monitors gamma to better depect the real life led color
+        let color = parseColor(elements[i].dataset.color);
+        let rgb = reverseGamma(gamma, color[0], color[1], color[2]);
+        elements[i].style.backgroundColor = "rgb(" + rgb[0] + ", " + rgb[1] + ", " + rgb[2] + ")";
+        //elements[i].innerHTML = elements[i].dataset.color;
+      }
+    }
   </script>
 </head>
 <body>
@@ -87,7 +114,12 @@
           'https://github.com/kiibohd/wiki/blob/master/',
 	  undefined,
 	  '📝 Edit'
-        )
+        ),
+        function(hook) {
+          hook.doneEach(function(html) {
+            correctColors(2.2);
+          })
+        }
       ]
     };
 

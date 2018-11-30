@@ -43,6 +43,7 @@
     - [Virual Serial Port](Debugging.md)
     - [UART](UARTDebugging.md)
     - [GDB](GDB.md)
+    - [Stack overflows](StackCorruption.md)
   - Architecture
     - [Build Architecture](BuildArchitecture.md)
     - [Test Architecture](TestArchitecture.md)
