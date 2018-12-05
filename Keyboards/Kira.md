@@ -20,7 +20,7 @@ Pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd> will
 
 Alternatively, flip your Kira over and look for the inset firmware flash button. Press the button with a thin object to put the keyboard into flash mode. Pressing <kbd>Escape</kbd> will exit flash mode. You can also use this method if your layout does not have a flashing hotkey assigned, or the layout is unknown.
 
-[flash-switch](../images/reset%20button.jpg 'Flash Button')
+![flash-switch](../images/reset%20button.jpg 'Flash Button')
 
 ## Default Layout
 
