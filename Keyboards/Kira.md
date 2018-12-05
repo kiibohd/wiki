@@ -18,6 +18,10 @@ Please follow the [Quickstart](Quickstart.md) guide.
 
 Pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd> will enter flash mode. Pressing <kbd>Escape</kbd> will exit flash mode.
 
+Alternatively, flip your Kira over and look for the inset firmware flash button. Press the button with a thin object to put the keyboard into flash mode. Press <kbd>Escape</kbd> You can also use this button if your layout does not have a flashing hotkey assigned.
+
+[reset-switch]
+
 ## Default Layout
 
 ### Base Layer
