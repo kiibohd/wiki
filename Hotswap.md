@@ -9,6 +9,7 @@ To replace the switches, use the following procedure:
 
  1. Remove the keycaps on the switches that you want to replace using the provided keycap puller.
  2. Using the provided switch removal tool, remove the switches from the switch plate by pushing the locking arms inward, then lifting the switch straight up.
+ ![switch-remover](../images/switch%20pull.jpg "Removing a Switch with the Kira switch removal tool.")
  3. Ensure that the replacement switch has undamaged pins that are straight and not bent. Some switches have very soft pins that bend easily, so caution should be observed.
  4. Insert the new switch, positioning the switch pins to match the socket pins. Ensure that all sides of the switch are firmly on the plate.
  5. Put the keycaps back on the replaced switches.
