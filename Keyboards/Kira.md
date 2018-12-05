@@ -4,7 +4,7 @@
 
 ## Changing the ring
 
-![ring](./images/Kira%20Back%20Frame%20off.jpg "Kira With Ring Removed")
+![ring](../images/Kira%20Back%20Frame%20off.jpg "Kira With Ring Removed")
 
 Easily remove the ring from the Kira by gently lifting from the back until it releases and then the front to remove it entirely.
 
