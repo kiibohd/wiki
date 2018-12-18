@@ -1,9 +1,10 @@
 # Download the configurator
 
 ?> The latest pre-release contains support for Kira, but is not yet feature complete.
-Please check back often for updates.
+Please check back often for future updates.
+[Download v0.6.0-alpha](https://github.com/kiibohd/configurator/releases/tag/v0.6.0-alpha)
 
-Available at https://github.com/kiibohd/configurator/releases/latest.
+The current stable release is available at https://github.com/kiibohd/configurator/releases/latest.
 
 <!-- tabs:start -->
 
@@ -81,6 +82,10 @@ Once the download is complete you should see a green success message
 
 <!-- tabs:start -->
 
+## ** Kira **
+
+![flash-switch](../images/reset%20button.jpg 'Flash Button')
+
 ## ** WhiteFox / Nightfox **
 
 #### Video
@@ -92,10 +97,6 @@ Once the download is complete you should see a green success message
 #### Video
 
 [![ktype-flash](https://img.youtube.com/vi/i5wFVnEJcok/0.jpg)](https://www.youtube.com/watch?v=i5wFVnEJcok "WhiteFox Flashing Button Demonstration")
-
-## ** Kira **
-
-![flash-switch](../images/reset%20button.jpg 'Flash Button')
 
 <!-- tabs:end -->
 
