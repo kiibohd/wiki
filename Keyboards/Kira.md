@@ -2,6 +2,8 @@
 
 [![Preorder On Kono Store](https://cdn.discordapp.com/attachments/464630501374820372/512362426956513290/Preorder_on_Kono.png ':size=500%')](https://kono.store/products/kira-mechanical-keyboard)
 
+?> Configurator Pre-Release [now available](Quickstart.md)
+
 ## Changing the ring
 
 ![ring](../images/Kira%20Back%20Frame%20off.jpg "Kira With Ring Removed")

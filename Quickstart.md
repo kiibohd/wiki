@@ -1,5 +1,8 @@
 # Download the configurator
 
+?> The latest pre-release contains support for Kira, but is not yet feature complete.
+Please check back often for updates.
+
 Available at https://github.com/kiibohd/configurator/releases/latest.
 
 <!-- tabs:start -->
@@ -49,9 +52,6 @@ Download kiibohd-configurator-XXXXX-win.exe
 
 ## Other Keyboards
 
-- Gemini Dusk
-- Gemini Dawn
-
 3rd party keyboards are not currently supported in the configurator.
 For manually porting to new keyboards see the [Development](Development.md) section.
 
@@ -67,15 +67,17 @@ Press the lightning bolt icon at the top right of the toolbar.
 
 ![compile](./images/configurator-compile.png "Compile Button")
 
-Once the download is complete press the flash button
+Once the download is complete you should see a green success message
+
+![compile-success](./images/configurator-compile-success.png "Compile Success Toast")
 
 ### Entering Flash Mode.
 
 1.  Flip your Keyboard over.
-2.  With the keys down you should see a small hole on the left side in the middle of the board.
+2.  With the keys down you should see a small hole on the the buttom of the board.
 3.  While the keyboard is plugged in, use a paperclip or other small object to press the button inside the case.
 
-- TIP: you can also configure a key combination to enter flash mode. On the default layout it's Fn-ESC.
+- TIP: you can also configure a key combination to enter flash mode.
 
 <!-- tabs:start -->
 
@@ -90,6 +92,10 @@ Once the download is complete press the flash button
 #### Video
 
 [![ktype-flash](https://img.youtube.com/vi/i5wFVnEJcok/0.jpg)](https://www.youtube.com/watch?v=i5wFVnEJcok "WhiteFox Flashing Button Demonstration")
+
+## ** Kira **
+
+![flash-switch](../images/reset%20button.jpg 'Flash Button')
 
 <!-- tabs:end -->
 
@@ -111,8 +117,8 @@ You can then press the purple flash button.
 
 The keyboard exists flash mode automatically after a successful flash.
 
-If you do not wish to change the firmware you may press ESC or unplug the keyboard to exit flash mode manually.
+If you do not wish to change the firmware you may press <kbd>ESC</kbd> or unplug the keyboard to exit flash mode manually.
 
 # Done
 
-Enjoy your new layout :smiley:. For more advanced features and configuration please see the rest of this wiki.
+Enjoy your new layout. For more advanced features and configuration please see the Configurator section of this wiki.

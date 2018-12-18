@@ -25,6 +25,8 @@ This process can be repeated for any other keys that need to be changed.
 
 ## Animation Controls
 
+!> Not yet implemented in the new configurator
+
 - Select the Visuals tab
 
 ![animations](../images/Configurator/animation-tab.png)

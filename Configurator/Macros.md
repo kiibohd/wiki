@@ -1,3 +1,1 @@
-"Coming soon ಠ_ಠ" to the next version of the configurator.
-
-Check back later.
+!> Not yet implemented in the configurator. For now see [KLL](Configurator/Kll.md).
