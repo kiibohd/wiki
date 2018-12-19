@@ -9,5 +9,5 @@
 - KLL macros
 - Debug CLI
 
-[Usage](Quickstart)
-[Development](Development)
+[Quickstart](Quickstart)
+[All Keyboards](Keyboards)

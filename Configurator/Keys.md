@@ -10,18 +10,17 @@
 
 ## Actions
 
-- select your desired action from below
-
-See [Actions](Configurator/Actions.md) for details.
+- select your desired action from below (see [Actions](Configurator/Actions.md) for more info)
 
 ![action](../images/Configurator/key-action.png)
 
 - the key will now be rebound.
 
-This process can be repeated for any other keys that need to be changed.
+- This process can be repeated for any other keys that need to be changed.
+
+**For information on how layers inteact and behave see the [Layers](Configurator/Layers.md) page.**
 
 ?> Follow the [Quickstart guide](Quickstart.md) to load the new configuration to your keyboard.
-
 
 ## Animation Controls
 

@@ -1,11 +1,13 @@
 <!-- _navbar.md -->
 
-- Getting started
+- Getting Started
+  - [Quickstart Guide](Quickstart.md)
+  - [Configurator](Configurator.md)
 
-  - [Windows](WindowsSetup.md)
-  - [Mac](MacSetup.md)
-  - [Linux](LinuxSetup.md)
-
-- Configuration
-  - [Configuration](Configuration.md)
-  - [Layers](Layers.md)
+- Keyboards
+  - [Infinity 60%](Keyboards/Infinity60.md)
+  - [Infinity Ergodox](Keyboards/InfinityErgodox.md)
+  - [K-Type](Keyboards/K-Type.md)
+  - [Whitefox](Keyboards/Whitefox.md)
+  - [Kira](Keyboards/Kira.md)
+  - [RE:Type](Keyboards/REType.md)

@@ -1,64 +1,82 @@
 # Download the configurator
 
-?> The latest pre-release contains support for Kira, but is not yet feature complete.
-Please check back often for future updates.
-[Download v0.6.0-alpha](https://github.com/kiibohd/configurator/releases/tag/v0.6.0-alpha)
-
-The current stable release is available at https://github.com/kiibohd/configurator/releases/latest.
-
 <!-- tabs:start -->
 
 #### ** Windows **
 
-Download kiibohd-configurator-XXXXX-win.exe
+v0.6.0 **pre-release**: [Download Windows installer](https://github.com/kiibohd/configurator/releases/download/v0.6.0-alpha/kiibohd-configurator-0.6.0-alpha-win.msi)
+
+ - Kira support
+
+?> The pre-release contains support for Kira, but is not yet feature complete.
+Please check back often for future updates.
+
+<!--
+---
+Old Versions:
+
+*v0.4.1:* [Download](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1-win.exe)
+
+ - K-Type animation support
+
+ - Requires [dfu-util](http://dfu-util.sourceforge.net/releases/)
+-->
 
 #### ** Mac **
 
-- Download kiibohd-configurator-XXXXX-mac.dmg
-- Install [dfu-util](http://dfu-util.sourceforge.net/releases/) using [homebrew](https://brew.sh/) - `brew install dfu-util`
+v0.6.0 **pre-release**: [Download OSX installer](https://github.com/kiibohd/configurator/releases/download/v0.6.0-alpha/kiibohd-configurator-0.6.0-alpha-mac.dmg)
+
+ - Kira support
+
+?> The pre-release contains support for Kira, but is not yet feature complete.
+Please check back often for future updates.
+
+<!--
+---
+Old Versions:
+
+v0.4.1: [Download](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1-mac.dmg)
+
+ - K-Type animation support
+
+ - Requires dfu-util (available using [homebrew](https://brew.sh/), `brew install dfu-util`)
+-->
 
 #### ** Debian, Ubuntu, Mint **
 
-- Download kiibohd-configurator-XXXXX-linux-YYYY.deb
-- `sudo apt-get install dfu-util`
+v0.4.1:
+ - [Download tar](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.gz)
+ - `sudo apt-get install dfu-util`
 
 #### ** Fedora **
 
-- Download kiibohd-configurator-XXXXX.tar.gz
-- `sudo dnf install dfu-util`
+v0.4.1:
+ - [Download tar](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.gz)
+ - `sudo dnf install dfu-util`
 
 #### ** Arch **
 
-- Download kiibohd-configurator-XXXXX.tar.gz
-- `pacman -S dfu-util`
+v0.4.1:
+ - [Download tar](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.gz)
+ - `pacman -S dfu-util`
 
 #### ** Other Linux **
 
-- Download kiibohd-configurator-XXXXX.tar.gz
-- Using your system package manager install [dfu-util](http://dfu-util.sourceforge.net/releases/)
+v0.4.1:
+ - [Download tar](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.gz)
+ - Install [dfu-util](http://dfu-util.sourceforge.net) using your systems package manager
 
 <!-- tabs:end -->
+
+Other releases are available on github: [Browse all](https://github.com/kiibohd/configurator/releases)
 
 # Choose your device
 
 ![configurator](./images/configurator-home.png "Configurator")
 
-## Official Input Club Keyboards
-
-- [Infinity 60%](https://input.club/devices/infinity-keyboard/)
-- [Infinity 60% LED](https://input.club/devices/infinity-keyboard/)
-- [Infinity Ergodox](https://input.club/devices/infinity-ergodox/)
-- [K-Type](https://input.club/k-type/)
-- [WhiteFox](https://input.club/whitefox/)
-
-## Other Keyboards
-
-3rd party keyboards are not currently supported in the configurator.
-For manually porting to new keyboards see the [Development](Development.md) section.
-
 # Configure your Layout
 
-Keys can be reassigned by clicking a switch and then clicking an action below. For more information see the [Customization](Customization.md) setction.
+Keys can be reassigned by clicking a switch and then clicking an action below. For more information see the [Keys](Configurator/Keys.md) page.
 
 ![keymap](./images/configurator-keymap.png "Configurator Keymap")
 
@@ -102,10 +120,7 @@ Once the download is complete you should see a green success message
 
 #### Failsafe mode
 
-In case the keyboard cannot load the flashed firmware it will go into failsafe mode. In this state the keyboard is unresponsive, but can still enter flash mode:
-
-1. Unplug an replug the USB cable
-2. Press the flash button (as described above) twice in a row
+In case the keyboard cannot load the flashed firmware it will go into failsafe mode. In this state the keyboard is unresponsive, but can still enter flash mode.
 
 ### Flashing
 
@@ -122,4 +137,4 @@ If you do not wish to change the firmware you may press <kbd>ESC</kbd> or unplug
 
 # Done
 
-Enjoy your new layout. For more advanced features and configuration please see the Configurator section of this wiki.
+Enjoy your new layout. For more advanced features and configuration please see the [Configurator](Configurator.md#customization) section of this wiki.
