@@ -102,7 +102,7 @@ Once the download is complete you should see a green success message
 
 ## ** Kira **
 
-![flash-switch](../images/reset%20button.jpg 'Flash Button')
+![flash-switch](./images/reset%20button.jpg 'Flash Button')
 
 ## ** WhiteFox / Nightfox **
 
