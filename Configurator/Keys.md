@@ -1,20 +1,32 @@
-1. Select your active keyboard from the list of connected devices.
+1. Select your active keyboard from the list of connected devices. You should see a preview of the selected board.
 
-2. Select the Keymap tab in the upper right side of the configurator window.
+![keyoard](../images/Configurator/keymap.png)
 
-![keymap](../images/Configurator/keymap.png)
-
-3. Select a key, it will be outlined with a red outline
+2. Select a key, it will be outlined with a red outline
 
 ![key](../images/Configurator/key-select.png)
 
+3. Make sure the key info tab is selected
+
+![info](../images/Configurator/key-info.png)
+
+4. Click the reassign button
+
+![reassign](../images/Configurator/key-reassign.png)
+
+?> Tip: Holding shift when selecting a key will go straight to the reassign dialog
+
 ## Actions
 
-- select your desired action from below (see [Actions](Configurator/Actions.md) for more info)
+- Select your desired action from the popup (see [Actions](Configurator/Actions.md) for more info).
 
 ![action](../images/Configurator/key-action.png)
 
-- the key will now be rebound.
+- Different categories can be shown or hidden by clicking their names in the bar at the top.
+
+![groups](../images/Configurator/key-groups.png)
+
+- After selecting a key the switch will now be rebound.
 
 - This process can be repeated for any other keys that need to be changed.
 
@@ -24,11 +36,9 @@
 
 ## Animation Controls
 
-!> Not yet implemented in the new configurator
+- In the key assign dialog, chose the animation tab
 
-- Select the Visuals tab
-
-![animations](../images/Configurator/animation-tab.png)
+![animation](../images/Configurator/key-animation.png)
 
 - Select an animation 
 
@@ -38,6 +48,8 @@
 
 ![controls](../images/Configurator/animation-controls.png)
 
-- Add the command 
+- Assign the command 
 
 ![add](../images/Configurator/animation-add.png)
+
+- The key will now start/stop/pause the chosen animation

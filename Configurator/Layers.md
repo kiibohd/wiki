@@ -1,5 +1,9 @@
 Layers provide a way to to change how keys behave.
 
+You can switch between layers with the bar at the top of the configurator.
+
+![layers](../images/Configurator/layers.png)
+
 ## Layers Shifting
 
 Shifting activates a change but only while a key is **held** down.

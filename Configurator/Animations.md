@@ -1,4 +1,4 @@
-[![animations](https://img.youtube.com/vi/Gv5QvRUT9gc/0.jpg)](https://www.youtube.com/watch?v=Gv5QvRUT9gc "K-Type Configurator Guide - Multiple Animations")
+<!-- [![animations](https://img.youtube.com/vi/Gv5QvRUT9gc/0.jpg)](https://www.youtube.com/watch?v=Gv5QvRUT9gc "K-Type Configurator Guide - Multiple Animations") -->
 
 # Steps 
 1. Select your active keyboard from the list of connected devices.
@@ -8,11 +8,13 @@
 
 3. Click on the wrench in the bottom left of the configurator window to access the "Customize Pre-built" section.
 
-Select a Pre-built animation from the list, we will use Miami Wave as an example for this manual.
+![canned](../images/Configurator/canned.png)
 
-![animations](../images/Configurator/animations.png)
+4. Select a Pre-built animation from the list, we will use Miami Wave as an example for this manual.
 
-5. Change tne name, speed, and other settings as you see fit, then Click the "Add Animation" button.
+![animations](../images/Configurator/builtin-animations.png)
+
+5. Change the name, speed, and other settings as you see fit, then Click the "Create" button.
 
 ![customize](../images/Configurator/customize.png)
 
