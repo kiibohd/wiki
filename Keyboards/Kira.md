@@ -2,17 +2,8 @@
 
 [![Preorder On Kono Store](https://cdn.discordapp.com/attachments/464630501374820372/512362426956513290/Preorder_on_Kono.png ':size=500%')](https://kono.store/products/kira-mechanical-keyboard)
 
-?> Configurator Pre-Release [now available](Quickstart.md)
-
-## Changing the ring
-
-![ring](../images/Kira%20Back%20Frame%20off.jpg "Kira With Ring Removed")
-
-Easily remove the ring from the Kira by gently lifting from the back until it releases and then the front to remove it entirely.
-
-To replace the ring, gently attach the front and lower the back until it snaps into place.
-
-[hotswap](../Hotswap.md ':include')
+?> [**Configurator now available**](Quickstart.md)<br/>
+   We recommend all customers to flash their keyboard for the latest fixes and features.
 
 ## Flashing
 
@@ -23,6 +14,28 @@ Pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd> will
 Alternatively, flip your Kira over and look for the inset firmware flash button. Press the button with a thin object to put the keyboard into flash mode. Pressing <kbd>Escape</kbd> will exit flash mode. You can also use this method if your layout does not have a flashing hotkey assigned, or the layout is unknown.
 
 ![flash-switch](../images/reset%20button.jpg 'Flash Button')
+
+## Known Issues
+- When entering flash mode using the keycombo, the ctrl/shift keys may stay pressed
+ - Pressing ctrl and shift after leaving flash mode, on another keyboard, will unstick the keys
+
+- The orange fade-in animation may show two different shades
+ - Known issue: Please upgade the firmware by following the [Flashing](#Flashing) process
+
+- Some leds occasionally freeze if the led controller chip misbehaves
+ - Unplugging and replugging the keyboard should fix the animations
+
+- When using the developer debug terminal leds may flicker
+
+## Changing the ring
+
+![ring](../images/Kira%20Back%20Frame%20off.jpg "Kira With Ring Removed")
+
+Easily remove the ring from the Kira by gently lifting from the back until it releases and then the front to remove it entirely.
+
+To replace the ring, gently attach the front and lower the back until it snaps into place.
+
+[hotswap](../Hotswap.md ':include')
 
 ## Default Layout
 

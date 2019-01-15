@@ -4,9 +4,13 @@
 
 #### ** Windows **
 
-v1.0.0 **NEW**: [Download Windows installer](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-win.exe)
+v1.0.0 **NEW**: [Download Windows Configurator](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-win.exe)
 
  - Kira support
+ - Macro support
+
+?> If you have issues with your keyboard being detected, please try the following package:
+   [Windows Driver Installer](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiibohdDrivers.msi)
 
 <!--
 ---
@@ -24,6 +28,7 @@ Old Versions:
 v1.0.0 **NEW**: [Download OSX installer](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-mac.dmg)
 
  - Kira support
+ - Macro support
 
 <!--
 ---
@@ -38,27 +43,30 @@ v0.4.1: [Download](https://github.com/kiibohd/configurator/releases/download/v0.
 
 #### ** Debian, Ubuntu, Mint **
 
-v1.0.0:
- - [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
+v1.0.0 **NEW**:
+ - [Download and run AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
  - `sudo apt-get install dfu-util`
 
 #### ** Fedora **
 
-v1.0.0:
- - [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
+v1.0.0 **NEW**:
+ - [Download and run AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
  - `sudo dnf install dfu-util`
 
 #### ** Arch **
 
-v1.0.0:
- - [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
+v1.0.0 **NEW**:
  - `pacman -S dfu-util`
+ - [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
+ - `chmod +x kiibohd-configurator-1.0.0-linux-x86_64.AppImage`
+ - `./kiibohd-configurator-1.0.0-linux-x86_64.AppImage`
 
 #### ** Other Linux **
 
-v1.0.0:
- - [Download tar](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x64.tar.gz)
+v1.0.0 **NEW**:
  - Install [dfu-util](http://dfu-util.sourceforge.net) using your systems package manager
+ - [Download tar](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x64.tar.gz)
+ - Run `kiibohd-configurator`
 
 <!-- tabs:end -->
 
