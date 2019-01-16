@@ -1,3 +1,41 @@
+# Install the drivers
+
+<!-- tabs:start -->
+
+#### ** Windows **
+
+Download and run:
+
+[Windows Driver Installer](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiibohdDrivers.msi)
+
+#### ** Mac **
+
+*Nothing to do.*
+
+#### ** Debian, Ubuntu, Mint **
+
+Run the following command in a terminal:
+
+ - `sudo apt-get install dfu-util`
+
+#### ** Fedora **
+
+Run the following command in a terminal:
+
+ - `sudo dnf install dfu-util`
+
+#### ** Arch **
+
+Run the following command in a terminal:
+
+ - `sudo pacman -S dfu-util`
+
+#### ** Other Linux **
+
+Install [dfu-util](http://dfu-util.sourceforge.net) using your systems package manager
+
+<!-- tabs:end -->
+
 # Download the configurator
 
 <!-- tabs:start -->
@@ -9,54 +47,26 @@ v1.0.0 **NEW**: [Download Windows Configurator](https://github.com/kiibohd/confi
  - Kira support
  - Macro support
 
-?> If you have issues with your keyboard being detected, please try the following package:
-   [Windows Driver Installer](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiibohdDrivers.msi)
-
-<!--
----
-Old Versions:
-
-*v0.4.1:* [Download](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1-win.exe)
-
- - K-Type animation support
-
- - Requires [dfu-util](http://dfu-util.sourceforge.net/releases/)
--->
-
 #### ** Mac **
 
-v1.0.0 **NEW**: [Download OSX installer](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-mac.dmg)
+v1.0.0 **NEW**: [Download OSX App](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-mac.dmg)
 
  - Kira support
  - Macro support
 
-<!--
----
-Old Versions:
-
-v0.4.1: [Download](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1-mac.dmg)
-
- - K-Type animation support
-
- - Requires dfu-util (available using [homebrew](https://brew.sh/), `brew install dfu-util`)
--->
-
 #### ** Debian, Ubuntu, Mint **
 
-v1.0.0 **NEW**:
- - [Download and run AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
- - `sudo apt-get install dfu-util`
+v1.0.0 **NEW**: [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
+ - Run the file
 
 #### ** Fedora **
 
-v1.0.0 **NEW**:
- - [Download and run AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
- - `sudo dnf install dfu-util`
+v1.0.0 **NEW**: [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
+ - Run the file
 
 #### ** Arch **
 
 v1.0.0 **NEW**:
- - `pacman -S dfu-util`
  - [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
  - `chmod +x kiibohd-configurator-1.0.0-linux-x86_64.AppImage`
  - `./kiibohd-configurator-1.0.0-linux-x86_64.AppImage`
@@ -64,13 +74,13 @@ v1.0.0 **NEW**:
 #### ** Other Linux **
 
 v1.0.0 **NEW**:
- - Install [dfu-util](http://dfu-util.sourceforge.net) using your systems package manager
  - [Download tar](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x64.tar.gz)
+ - Extract the file
  - Run `kiibohd-configurator`
 
 <!-- tabs:end -->
 
-Other releases are available on github: [Browse all](https://github.com/kiibohd/configurator/releases)
+*Other releases are available on github:* [Browse all](https://github.com/kiibohd/configurator/releases)
 
 # Choose your device
 
@@ -94,35 +104,41 @@ Once the download is complete you should see a green success message
 
 ### Entering Flash Mode.
 
-1.  Flip your Keyboard over.
-2.  With the keys down you should see a small hole on the the buttom of the board.
-3.  While the keyboard is plugged in, use a paperclip or other small object to press the button inside the case.
-
-- TIP: you can also configure a key combination to enter flash mode.
-
 <!-- tabs:start -->
 
 ## ** Kira **
+
+Pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd> will enter flash mode.
+
+Alternatively, flip your Kira over find the reset button hole. Press the button with a thin object to put the keyboard into flash mode. You can use this method if your layout does not have a flashing hotkey assigned, or the layout is unknown.
 
 ![flash-switch](./images/reset%20button.jpg 'Flash Button')
 
 ## ** WhiteFox / Nightfox **
 
-#### Video
+Pressing <kbd>Fn</kbd> + <kbd>Esc</kbd> will enter flash mode.
+
+#### Fallback Method
 
 [![whitefox-flash](https://img.youtube.com/vi/okFwGmpq70Y/0.jpg)](https://www.youtube.com/watch?v=okFwGmpq70Y "WhiteFox Flashing Button Demonstration")
 
+1.  Flip your Keyboard over.
+2.  With the keys down you should see a small hole on the the buttom of the board.
+3.  While the keyboard is plugged in, use a paperclip or other small object to press the button inside the case.
+
 ## ** K-Type **
 
-#### Video
+Pressing <kbd>Fn</kbd> + <kbd>Esc</kbd> will enter flash mode.
+
+#### Fallback Method
 
 [![ktype-flash](https://img.youtube.com/vi/i5wFVnEJcok/0.jpg)](https://www.youtube.com/watch?v=i5wFVnEJcok "WhiteFox Flashing Button Demonstration")
 
+1.  Flip your Keyboard over.
+2.  With the keys down you should see a small hole on the the buttom of the board.
+3.  While the keyboard is plugged in, use a paperclip or other small object to press the button inside the case.
+
 <!-- tabs:end -->
-
-#### Failsafe mode
-
-In case the keyboard cannot load the flashed firmware it will go into failsafe mode. In this state the keyboard is unresponsive, but can still enter flash mode.
 
 ### Flashing
 

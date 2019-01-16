@@ -7,17 +7,7 @@
 ?>  We recommend all customers to update their keyboard for the latest fixes and features.</br><br/>
    **Please follow the [Quickstart guide](Quickstart.md) to flash your Kira.**
 
-
-#### How to enter flash mode
-Pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd> will enter flash mode.
-
-Alternatively, flip your Kira over and look for the inset firmware flash button. Press the button with a thin object to put the keyboard into flash mode. You can use this method if your layout does not have a flashing hotkey assigned, or the layout is unknown.
-
-![flash-switch](../images/reset%20button.jpg 'Flash Button')
-
-Pressing <kbd>Escape</kbd> will exit flash mode.
-
-### Fixed Issues
+#### Fixed Issues
 The following issues are fixed with a firmware update:
 
 - When entering flash mode using the keycombo, the ctrl/shift keys may stay pressed
