@@ -1,31 +1,90 @@
-![Kira](https://cdn.shopify.com/s/files/1/1994/3097/products/Kira-Kono.png?v=1538517897)
+![Kira](https://cdn.discordapp.com/attachments/394307335704543232/534901510283198474/Kira_Main_Image.png)
 
 [![Preorder On Kono Store](https://cdn.discordapp.com/attachments/464630501374820372/512362426956513290/Preorder_on_Kono.png ':size=500%')](https://kono.store/products/kira-mechanical-keyboard)
 
-?> [**Configurator now available**](Quickstart.md)<br/>
-   We recommend all customers to flash their keyboard for the latest fixes and features.
-
 ## Flashing
 
-Please follow the [Quickstart](Quickstart.md) guide.
+?>  We recommend all customers to update their keyboard for the latest fixes and features.</br><br/>
+   **Please follow the [Quickstart guide](Quickstart.md) to flash your Kira.**
 
-Pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd> will enter flash mode. Pressing <kbd>Escape</kbd> will exit flash mode.
 
-Alternatively, flip your Kira over and look for the inset firmware flash button. Press the button with a thin object to put the keyboard into flash mode. Pressing <kbd>Escape</kbd> will exit flash mode. You can also use this method if your layout does not have a flashing hotkey assigned, or the layout is unknown.
+#### How to enter flash mode
+Pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd> will enter flash mode.
+
+Alternatively, flip your Kira over and look for the inset firmware flash button. Press the button with a thin object to put the keyboard into flash mode. You can use this method if your layout does not have a flashing hotkey assigned, or the layout is unknown.
 
 ![flash-switch](../images/reset%20button.jpg 'Flash Button')
 
-## Known Issues
+Pressing <kbd>Escape</kbd> will exit flash mode.
+
+### Fixed Issues
+The following issues are fixed with a firmware update:
+
 - When entering flash mode using the keycombo, the ctrl/shift keys may stay pressed
- - Pressing ctrl and shift after leaving flash mode, on another keyboard, will unstick the keys
-
 - The orange fade-in animation may show two different shades
- - Known issue: Please upgade the firmware by following the [Flashing](#Flashing) process
 
-- Some leds occasionally freeze if the led controller chip misbehaves
- - Unplugging and replugging the keyboard should fix the animations
+## Default Layout
 
-- When using the developer debug terminal leds may flicker
+![layout](../images/kira/layout.png "Kira Base Layout")
+
+### Lighting Layer
+The Animation layer is accessible with by holding <kbd>Right Alt</kbd> + <kbd>Right Control</kbd>.
+
+![layer2-combo](../images/kira/layer2-combo.png "Kira Layer 2 Combo")
+![layer1](../images/kira/layer2.png "Kira Layer 2")
+
+| Key Combo | Action |
+|-----------|--------|
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F1</kbd> | Change key colors |
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F2</kbd> | Change underglow color |
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F7</kbd> | Change animation |
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>-</kbd> | Increase Brightness |
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>+</kbd> | Decrease Brightness |
+
+#### Fading
+
+By default the keyboard will gradually "breath" in and out. The speed of this can be changed.
+
+| Key Combo | Action |
+|-----------|--------|
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F12</kbd> | Change key fade |
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F11</kbd> | Change underglow fade |
+
+### Control Layer
+The Control layer is accessible with by holding <kbd>Right Shift</kbd> + <kbd>Right Control</kbd>.
+
+![layer1-combo](../images/kira/layer1-combo.png "Kira Layer 1 Combo")
+
+![layer1](../images/kira/layer1.png "Kira Layer 2")
+
+#### Media Keys
+
+| Key Combo | Action |
+|-----------|--------|
+| <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Home</kbd>     | Volume Down |
+| <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>End</kbd>      | Volume Up |
+| <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>PgUp</kbd>     | Play / Pause |
+| <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>PgDn</kbd>     | Mute |
+| <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Num Lock</kbd> | Previous Track |
+| <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Numpad /</kbd> | Next Track |
+| <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Numbad *</kbd> | Rewind |
+| <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Numbad -</kbd> | Fast Forward |
+
+#### Save Lighting Settings
+
+After saving your lighting settings they will automatically take effect when the keyboard is plugged in.
+
+| Key Combo | Action |
+|-----------|--------|
+| <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>F12</kbd> | Save animation & brightness |
+| <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>F11</kbd> | Load saved animation & brightness |
+| <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>F10</kbd> | Load default animation & brightness |
+
+## Changing the layout
+
+**Configurator now available!**
+
+The [Quickstart guide](Quickstart.md) should help you configure your device
 
 ## Changing the ring
 
@@ -37,48 +96,18 @@ To replace the ring, gently attach the front and lower the back until it snaps i
 
 [hotswap](../Hotswap.md ':include')
 
-## Default Layout
-
-### Base Layer
-![layout](../images/kira/layout.png "Kira Base Layout")
-
-### Animation Layer
-The Animation layer is accessible with by holding <kbd>Right Alt</kbd> + <kbd>Right Control</kbd>.
-
-![layer2-combo](../images/kira/layer2-combo.png "Kira Layer 2 Combo")
-![layer1](../images/kira/layer2.png "Kira Layer 2")
-
-### Control Layer
-The Control layer is accessible with by holding <kbd>Right Shift</kbd> + <kbd>Right Control</kbd>.
-
-![layer1-combo](../images/kira/layer1-combo.png "Kira Layer 1 Combo")
-
-
-![layer1](../images/kira/layer1.png "Kira Layer 2")
 
 ## Default Animations
 
-Press <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F7</kbd> to change the animation
-
 | Animation |
 |-------|
-| Miami |
-| Rainbow |
+| Miami Wave |
+| Rainbow Wave |
 | Pastel Rainbow |
 | Kira Wave |
-| Default |
+| Orange |
 
 ## Default Colors
-
-### Keys
-
-Press <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F1</kbd> to cycle through the key colors.
-
-### Underglow
-
-Press <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F2</kbd> to cycle through the underglow colors.
-
-### Builtin Colors
 
 | Color |
 |-------|
@@ -107,21 +136,17 @@ Press <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F2</kbd> to cycle t
     keyColor(document.getElementById("color0"), 0xC1, 0x2D, 0x1D);
 </script>
 
-## Fading
-
-By default the keyboard will gradually "breath" in and out.
-
-### Keys
-
-Press <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F3</kbd> to change the fade speed for the keys.
-
-### Underglow
-
-Press <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F4</kbd> to change the fade speed for the underglow.
-
 ## Unbricking
 
 Please follow the [Unbrick guide](../BOSSA.md).
+
+## Known Issues
+
+- Some leds occasionally freeze if the led controller chip misbehaves
+ - Unplugging and replugging the keyboard should fix the animations
+
+- When using the developer debug terminal leds may flicker
+ - No current solution
 
 ## Resources
 
