@@ -138,7 +138,7 @@ To replace the ring, gently attach the front and lower the back until it snaps i
 
 ## Unbricking
 
-Please follow the [Unbrick guide](../BOSSA.md).
+Please follow the [Unbrick guide](./BOSSA.md).
 
 ## Known Issues
 
