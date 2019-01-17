@@ -25,6 +25,7 @@
 
 * Troubleshooting
   - [FAQ](FAQ.md)
+  - [Flashing Firmware](Flashing.md)
   - [Unbricking](BOSSA.md)
   - [Known USB Issues](Issues.md)
 
@@ -34,7 +35,6 @@
       - [Docker](https://github.com/kiibohd/controller/tree/master/Dockerfiles)
     - [Cygwin](WindowsSetup.md)
     - [Compiling](https://github.com/kiibohd/controller/tree/master/Keyboards)
-    - [Flashing](Flashing.md)
   - Configuration
     - [Microcontroller](MCU.md)
     - [Modules](Modules.md)

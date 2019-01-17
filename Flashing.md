@@ -1,32 +1,53 @@
-## Installing Firmware
+?> The [Configurator](Quickstart.md) is the easiest way to flash your keyboard, but you can also do it manually if you desire.
 
-First place the keyboard into re-flash mode. This can be done either by
-pressing the re-flash button on the PCB/Teensy. Or by entering the Kiibohd
-Virtual Serial Port and using the 'reload' command.
+## Install dfu
 
-To load the newly built firmware, run: `./load`.
+<!-- tabs:start -->
 
-Note: If you get a permission denied error on Linux or Mac then please run the
-command with sudo, or install the udev rule.
+#### ** Windows **
 
+- Download and run: [Windows Driver Installer](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiibohdDrivers.msi)
+- Download [dfu-util](http://dfu-util.sourceforge.net) and extract to a folder
+- Shift-Right Click and say "Open command window here"
 
-### Flashing - macOS
+#### ** Mac **
 
- 1. Navigate to the directory you unzipped the firmware to
- 2. With your keyboard in flash mode enter the command `dfu-util -D kiibohd.dfu.bin`
-    - If the above fails, try running the command with `sudo` (i.e. `sudo dfu-util -D kiibohd.dfu.bin`)
+- Install [Brew](https://brew.sh/)
 
-### Flashing - linux
+- Run the following command in a terminal:
 
- 1. Navigate to the directory you unzipped the firmware to
- 2. With your keyboard in flash mode enter the command `dfu-util -D kiibohd.dfu.bin`
-    - If the above fails, try running the command with `sudo` (i.e. `sudo dfu-util -D kiibohd.dfu.bin`)
+ - `sudo brew install dfu`
 
+#### ** Debian, Ubuntu, Mint **
 
-### Flashing - Windows
- 1. Copy the `kiibohd.dfu.bin` file from the unpacked firmware zip file into the same directory you installed `dfu-util`
- 2. Open a command prompt (Start => cmd.exe)
- 3. Change directories to the `dfu-util` directory - `cd "C:\<path>\<to>\<dir>"`
- 4. Execute the command `dfu-util -D kiibohd.dfu.bin`
+Run the following command in a terminal:
 
-Note: be patient the first couple of times, Windows is slow at installing drivers...
+ - `sudo apt-get install dfu-util`
+
+#### ** Fedora **
+
+Run the following command in a terminal:
+
+ - `sudo dnf install dfu-util`
+
+#### ** Arch **
+
+Run the following command in a terminal:
+
+ - `sudo pacman -S dfu-util`
+
+#### ** Other Linux **
+
+Install [dfu-util](http://dfu-util.sourceforge.net) using your systems package manager
+
+<!-- tabs:end -->
+
+## Download a .bin file for your keyboard
+
+Official firmware files can be found on the [Github Releases](https://github.com/kiibohd/controller/releases) page
+
+## Run dfu
+
+In the terminal type `dfu-util -D keyboard.dfu.bin`
+
+(*Replace keyboard.dfu.bin with the name of the bin file you downloaded*)
