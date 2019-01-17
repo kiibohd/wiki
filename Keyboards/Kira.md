@@ -7,6 +7,10 @@
 ?> **We recommend all customers to update their keyboard for the latest fixes and features.**<br/><br/>
    You can either use the installer below, or use the [Configurator](Quickstart.md)
 
+<!-- tabs:start -->
+
+#### ** Windows **
+
 - Install the [Windows Drivers](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiibohdDrivers.msi)
 
 - Run the [Firmware Updater](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/kira-firmware-v0.5.3-installer.exe)
@@ -15,6 +19,30 @@
   or by pressing the reset button on the bottom of the board
 
 ![reset-button](../images/reset%20button.jpg ':size=400%')
+
+#### ** Mac **
+
+- Run the [Firmware Updater](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiraFirmwareInstaller.app.zip)
+
+- Enter flash mode by pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd>,
+  or by pressing the reset button on the bottom of the board
+
+![reset-button](../images/reset%20button.jpg ':size=400%')
+
+#### ** Linux **
+
+- Download the [Firmware Updater](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/kira-firmware-v0.5.3-installer.tar.gz)
+
+- Extract the file
+
+- Run `flash.sh`
+
+- Enter flash mode by pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd>,
+  or by pressing the reset button on the bottom of the board
+
+![reset-button](../images/reset%20button.jpg ':size=400%')
+
+<!-- tabs:end -->
 
 #### Fixed Issues
 
