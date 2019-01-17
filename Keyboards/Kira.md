@@ -2,16 +2,32 @@
 
 [![Preorder On Kono Store](https://cdn.discordapp.com/attachments/464630501374820372/512362426956513290/Preorder_on_Kono.png ':size=500%')](https://kono.store/products/kira-mechanical-keyboard)
 
-## Flashing
+## Firmware Update
 
-?>  We recommend all customers to update their keyboard for the latest fixes and features.</br><br/>
-   **Please follow the [Quickstart guide](Quickstart.md) to flash your Kira.**
+?> **We recommend all customers to update their keyboard for the latest fixes and features.**<br/><br/>
+   You can either use the installer below, or use the [Configurator](Quickstart.md)
+
+- Install the [Windows Drivers](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiibohdDrivers.msi)
+
+- Run the [Firmware Updater](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/kira-firmware-v0.5.3-installer.exe)
+
+- Enter flash mode by pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd>,
+  or by pressing the reset button on the bottom of the board
+
+![reset-button](../images/reset%20button.jpg ':size=400%')
 
 #### Fixed Issues
+
 The following issues are fixed with a firmware update:
 
 - When entering flash mode using the keycombo, the ctrl/shift keys may stay pressed
 - The orange fade-in animation may show two different shades
+
+## Customizing
+
+**Configurator now available!**
+
+The [Quickstart guide](Quickstart.md) should help you configure your device
 
 ## Default Layout
 
@@ -69,12 +85,6 @@ After saving your lighting settings they will automatically take effect when the
 | <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>F12</kbd> | Save animation & brightness |
 | <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>F11</kbd> | Load saved animation & brightness |
 | <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>F10</kbd> | Load default animation & brightness |
-
-## Changing the layout
-
-**Configurator now available!**
-
-The [Quickstart guide](Quickstart.md) should help you configure your device
 
 ## Changing the ring
 
