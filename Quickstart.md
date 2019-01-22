@@ -4,6 +4,8 @@
 
 #### ** Windows **
 
+![drivers](./images/drivers.png ':size=400%')
+
 Download and run:
 
 [Windows Driver Installer](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiibohdDrivers.msi)
@@ -41,6 +43,8 @@ Install [dfu-util](http://dfu-util.sourceforge.net) using your systems package m
 <!-- tabs:start -->
 
 #### ** Windows **
+
+![configurator-install](./images/Configurator/install.png)
 
 v1.0.0 **NEW**: [Download Windows Configurator](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-win.exe)
 
@@ -113,6 +117,9 @@ Pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd> will
 Alternatively, flip your Kira over find the reset button hole. Press the button with a thin object to put the keyboard into flash mode. You can use this method if your layout does not have a flashing hotkey assigned, or the layout is unknown.
 
 ![flash-switch](./images/reset%20button.jpg 'Flash Button')
+
+Once in flash mode the orange led should be lit.
+![bootloader-led](https://cdn.discordapp.com/attachments/325093040500768779/536057903631695882/IMG_20190118_214221278.jpg)
 
 ## ** WhiteFox / Nightfox **
 

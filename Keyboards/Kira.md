@@ -20,6 +20,9 @@
 
 ![reset-button](../images/reset%20button.jpg ':size=400%')
 
+Once in flash mode the orange led should be lit.
+![bootloader-led](https://cdn.discordapp.com/attachments/325093040500768779/536057903631695882/IMG_20190118_214221278.jpg ':size=400%')
+
 #### ** Mac **
 
 - Run the [Firmware Updater](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiraFirmwareInstaller.app.zip)
@@ -28,6 +31,9 @@
   or by pressing the reset button on the bottom of the board
 
 ![reset-button](../images/reset%20button.jpg ':size=400%')
+
+Once in flash mode the orange led should be lit.
+![bootloader-led](https://cdn.discordapp.com/attachments/325093040500768779/536057903631695882/IMG_20190118_214221278.jpg ':size=400%')
 
 #### ** Linux **
 
@@ -41,6 +47,9 @@
   or by pressing the reset button on the bottom of the board
 
 ![reset-button](../images/reset%20button.jpg ':size=400%')
+
+Once in flash mode the orange led should be lit.
+![bootloader-led](https://cdn.discordapp.com/attachments/325093040500768779/536057903631695882/IMG_20190118_214221278.jpg ':size=400%')
 
 <!-- tabs:end -->
 
