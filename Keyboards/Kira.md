@@ -11,7 +11,7 @@
 
 #### ** Windows **
 
-- Install the [Windows Drivers](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiibohdDrivers.msi)
+- Install the [Windows Drivers](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiibohdDrivers.msi) (Necessary to flash properly.)
 
 - Run the [Firmware Updater](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/kira-firmware-v0.5.3-installer.exe)
 
