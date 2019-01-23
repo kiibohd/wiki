@@ -6,9 +6,13 @@
 
 ![drivers](./images/drivers.png ':size=400%')
 
-Download and run:
+ - Unplug your keyboard
+
+ - Download and run:
 
 [Windows Driver Installer](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiibohdDrivers.msi) (Necessary to flash properly.)
+
+ - Plug back in your keyboard
 
 #### ** Mac **
 

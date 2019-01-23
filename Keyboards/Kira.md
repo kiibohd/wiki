@@ -11,7 +11,11 @@
 
 #### ** Windows **
 
+- Unplug your keyboard
+
 - Install the [Windows Drivers](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiibohdDrivers.msi) (Necessary to flash properly.)
+
+- Plug back in your keyboard
 
 - Run the [Firmware Updater](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/kira-firmware-v0.5.3-installer.exe)
 
