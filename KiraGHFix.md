@@ -4,7 +4,7 @@
 
 [https://imgur.com/a/NWfPIGh](https://imgur.com/a/NWfPIGh)
 
-### Note: Implementing this fix will not void your warranty.
+?> Note: Implementing this fix will not void your warranty.
 
 ### Tools Required:
  - Small flat metal file
