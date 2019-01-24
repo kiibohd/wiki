@@ -29,6 +29,8 @@ Time required: about 5 minutes.
     ![Filing Angle](https://i.imgur.com/9EpY4sI.jpg ':size=400%')
 
     Be sure to test periodically with a spare switch / keycap to check if it’s straight.
+    
+    ![Filing example](https://i.imgur.com/ki1vRgC.jpg ':size=400%')
 
 3. Once your switches look straight, you will need to replace the plate. Make sure the PCB lines up with the top plate and press it down into place. Then simply rescrew, socket the switches / keycaps, replace the ring, and you’ll be good to go.
 
