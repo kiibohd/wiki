@@ -11,8 +11,8 @@
  - Small phillips screwdriver
  - Included switch puller & keycap puller
 
-	![Tools Required](https://i.imgur.com/jSjbFym.jpg ':size=20%')
-	![Small Flat File](https://i.imgur.com/nN86BJ6.jpg ':size=20%')
+	![Tools Required](https://i.imgur.com/jSjbFym.jpg ':size=100%')
+	![Small Flat File](https://i.imgur.com/nN86BJ6.jpg ':size=100%')
 
 ### Steps:
 
@@ -25,12 +25,15 @@
     	- The two veritcally stabilized switches on the right end by the numberpad (Enter and +) are moutned horizontally, they will need to be removed by pinching from the left and right. 
 		![Numpad Stabilizer Sockets](https://i.imgur.com/C1kqU4U.jpg ':size=400%')
     - Once all switches are removed, undo the 6 surrounding screws from the plate. Be careful when removing the plate as it is still connected to the PCB. 
-		![](https://i.imgur.com/yP9EMDw.jpg ':size=20%')
-		![](https://i.imgur.com/shxL2eo.jpg ':size=20%')
-		![](https://i.imgur.com/5kPzpEy.jpg ':size=20%')
-		![](https://i.imgur.com/xtlKdJK.jpg ':size=20%')
-		![](https://i.imgur.com/6Ny5AzU.jpg ':size=20%')
-		![](https://i.imgur.com/FPuihwk.jpg ':size=20%')
+    
+		![](https://i.imgur.com/yP9EMDw.jpg ':size=100%')
+		![](https://i.imgur.com/shxL2eo.jpg ':size=100%')
+		![](https://i.imgur.com/5kPzpEy.jpg ':size=100%')
+		
+		![](https://i.imgur.com/xtlKdJK.jpg ':size=100%')
+		![](https://i.imgur.com/6Ny5AzU.jpg ':size=100%')
+		![](https://i.imgur.com/FPuihwk.jpg ':size=100%')
+		
 		- Make sure the PCB does not become disconnected from the USB-C controller (connected by wires) at the back of the case.
 		- The plastic notches around the plate must be lightly released to allow the plate to lift off.
     - Gently flip the PCB and plate over. Remove the three mounting screws securing them together. Set the PCB and plastic bottom housing aside.
