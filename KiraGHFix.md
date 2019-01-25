@@ -59,6 +59,8 @@
     Be sure to test periodically with a spare switch / keycap to check if it’s straight.
     
     ![](https://i.imgur.com/xFuuqbQ.jpg ':size=400%')
+    
+    ![Straight Keycaps](https://i.imgur.com/QQ4wP9d.jpg ':size=400%')
 
 3. Once your switches look straight, you will need to replace the plate.
 	- Make sure the PCB lines up with the top plate.
@@ -75,6 +77,6 @@
 	
 	- Once all swithces have been replaced, replace your keycaps and top ring, and you’ll be good to go.
 
-    ![Straight Keycaps](https://i.imgur.com/QQ4wP9d.jpg ':size=400%')
+    ![](https://i.imgur.com/odX2lsN.jpg 'size=400%')
 
 Please contact support@kono.store with any questions.
