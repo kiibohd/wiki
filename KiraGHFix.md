@@ -47,6 +47,8 @@
     ![](https://i.imgur.com/iKSKE1J.jpg ':size=200%')
     ![](https://i.imgur.com/xNmD56v.jpg ':size=200%')
 
+![](https://i.imgur.com/TcwCIsU.jpg ':size=400%')
+
 2. With the plate separated, grab a thin flat-edge file.
 
     ![Small flat file](https://i.imgur.com/gzA4Lnv.jpg ':size=400%')
