@@ -65,7 +65,7 @@
 	- Rescrew the 3 round mounting screws between the bottom of the PCB and plate.
 	- Place the PCB and plate properly into the bottom housing, using the screw stands as guides.
 	- Screw the 6 mounting screws to hold the plate down.
-	- When resocketing your switches, make sure that the connecting pins line up and do not become bent. Line the pins over the sockets and push straight down firmly. They will snap into place.
+	- When resocketing your switches, make sure that the connecting pins line up and do not become bent. Line the pins over the sockets and push straight down firmly. They will snap into place. If any pins become bent, simply straighten them with small pliers.
 	
 	![](https://i.imgur.com/JFuoVTv.jpg ':size=200%')
 	
