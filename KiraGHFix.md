@@ -13,8 +13,6 @@
 
 ### Steps:
 
-Time required: about 5 minutes.
-
 1. Remove the upper plate from the Kira. 
  	- Lift the ring off the Kira, lift from the back edge first and then the front edge. Metal rings are held on with magnets, while plastic rings are held on by snapping in. Both types should lift off fairly easily.
     - Remove your switches/ keycaps with the included switch puller / keycap puller. (You do not need to remove stabilizers.)
