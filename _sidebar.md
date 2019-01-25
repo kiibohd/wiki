@@ -19,6 +19,7 @@
   - [Actions](Configurator/Actions.md)
   - [Layers](Configurator/Layers.md)
   - [Macros](Configurator/Macros.md)
+  - [Keyboard Settings](Configurator/Defines.md)
   - [Undo](Configurator/Undo.md)
   - [Loading / Saving](Configurator/LoadSave.md)
   - [Custom KLL](Configurator/Kll.md)
