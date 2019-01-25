@@ -20,10 +20,10 @@
 	
 	![Ring Removal](https://i.imgur.com/lyzhoyA.jpg 'size:100%')
 	
-    - Remove your switches/ keycaps with the included switch puller / keycap puller. (You do not need to remove stabilizers.)
-    
+    - Remove your switches/ keycaps with the included switch puller / keycap puller. You do not need to remove stabilizers.
+
 		![Switch Puller](https://i.imgur.com/cimz0uk.jpg ':size=400%')
-		
+
     	- Switches are removed by pinching the small top and bottom notches with the switch puller and pulling straight up. If a switch is giving you trouble, simply give it a little wiggle and it should free itself. Switches are fairly durable, but be sure not to crush any under your unimaginable strength.
     	- The two veritcally stabilized switches on the right end by the numberpad (Enter and +) are moutned horizontally, they will need to be removed by pinching from the left and right. 
 	
