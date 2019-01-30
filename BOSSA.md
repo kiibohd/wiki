@@ -88,7 +88,8 @@ On linux `lsusb` should show a device called "SAMBA bootloader"
 <!-- tabs:end -->
 
 ## Flashing the bootloader
-
+ - Download the appropriate bootloader.bin file from here:
+ [Controller .bin Files](https://github.com/kiibohd/controller/releases)
  - Select the the Serial Port.
 
 ![bossa-port](images/bossa-port.png)
