@@ -87,6 +87,7 @@ The Animation layer is accessible with by holding <kbd>Right Alt</kbd> + <kbd>Ri
 | <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F7</kbd> | Change animation |
 | <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>-</kbd> | **New firmware:** Decrease Brightness<br/>**Shipping firmware:** Increase Brightness |
 | <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>+</kbd> | **New firmware:** Increase Brightness<br/>**Shipping firmware:** Decrease Brightness |
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>Backslash</kbd> | Toggle gamma correction (changes color representation) |
 
 #### Fading
 
