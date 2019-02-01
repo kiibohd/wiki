@@ -84,6 +84,10 @@ The Animation layer is accessible with by holding <kbd>Right Alt</kbd> + <kbd>Ri
 |-----------|--------|
 | <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F1</kbd> | Change key colors |
 | <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F2</kbd> | Change underglow color |
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F3</kbd> | Change key fade period |
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F4</kbd> | Change underglow fade period |
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F5</kbd> | Change lock led fade period |
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F6</kbd> | Change layer highlight fade period |
 | <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F7</kbd> | Change animation |
 | <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>-</kbd> | **New firmware:** Decrease Brightness<br/>**Shipping firmware:** Increase Brightness |
 | <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>+</kbd> | **New firmware:** Increase Brightness<br/>**Shipping firmware:** Decrease Brightness |
