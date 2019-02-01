@@ -85,8 +85,8 @@ The Animation layer is accessible with by holding <kbd>Right Alt</kbd> + <kbd>Ri
 | <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F1</kbd> | Change key colors |
 | <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F2</kbd> | Change underglow color |
 | <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>F7</kbd> | Change animation |
-| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>-</kbd> | Increase Brightness |
-| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>+</kbd> | Decrease Brightness |
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>-</kbd> | **New firmware:** Decrease Brightness<br/>**Shipping firmware:** Increase Brightness |
+| <kbd>Right Alt</kbd> + <kbd>Right Control</kbd> + <kbd>+</kbd> | **New firmware:** Increase Brightness<br/>**Shipping firmware:** Decrease Brightness |
 
 #### Fading
 
@@ -188,6 +188,8 @@ Please follow the [Unbrick guide](./BOSSA.md).
 
 - When using the developer debug terminal leds may flicker
  - No current solution
+
+Firmware issues can be reported on [Github Issues](https://github.com/kiibohd/controller/issues).
 
 ## Resources
 
