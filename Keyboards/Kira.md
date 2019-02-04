@@ -126,6 +126,11 @@ The Control layer is accessible with by holding <kbd>Right Shift</kbd> + <kbd>Ri
 
 After saving your lighting settings they will automatically take effect when the keyboard is plugged in.
 
+Saving currently works for
+* Brightness
+* Currently active animations
+* Fade configuration
+
 | Key Combo | Action |
 |-----------|--------|
 | <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>F12</kbd> | Save animation & brightness |
