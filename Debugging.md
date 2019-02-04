@@ -28,8 +28,12 @@ Note: Screen can be installed with macports or homebrew. See [[Mac Setup|Mac Set
 
 #### ** Windows **
 
-Make sure the [Teensy Virtual Serial Port driver](http://pjrc.com/teensy/serial_install.exe) is installed. If possible use
-screen (as part of Cygwin). Check which COM port the virtual serial port has
+**Windows 7, 8 Only**
+
+Make sure the [Teensy Virtual Serial Port driver](http://pjrc.com/teensy/serial_install.exe) is installed.
+Windows 10+ has a driver built-in.
+
+If possible use screen (as part of Cygwin). Check which COM port the virtual serial port has
 been assigned to: `Device Manager->Ports (COM & LPT)->Teensy USB Serial`. In
 brackets it will say which COM port (e.g. COM3)
 
