@@ -1,6 +1,6 @@
 # Kira RF Improvement
 
-While the Kira is RF complement, it may not behave the best in noisy environments.
+While the Kira is RF FCC compliant, it may not behave the best in noisy environments.
 
 If you experience [strange lighting and resets](https://www.reddit.com/r/MechanicalKeyboards/comments/aidc4r/new_kira_susceptible_to_rfi_keying_up_2way_radio/) in the presence of a close high frequency transmitter you may benefit from installing a ferrite choke.
 
