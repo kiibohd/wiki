@@ -1,14 +1,14 @@
 * [Quickstart](Quickstart.md)
 
 * Supported Keyboards
-  - Inpub Club
+  - Input Club
     - [Infinity 60%](Keyboards/Infinity60.md)
     - [Infinity Ergodox](Keyboards/InfinityErgodox.md)
     - [K-Type](Keyboards/K-Type.md)
     - [Whitefox / Nightfox](Keyboards/WhiteFox.md)
     - [Kira](Keyboards/Kira.md)
     - [RE:Type](Keyboards/REType.md)
-  - Others
+  - Hex Gears
     - [Gemini Dawn / Dusk](Keyboards/GeminiDawn.md)
 
 * Configurator
