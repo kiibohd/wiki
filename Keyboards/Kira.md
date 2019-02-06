@@ -63,6 +63,7 @@ The following issues are fixed with a firmware update:
 
 - When entering flash mode using the keycombo, the ctrl/shift keys may stay pressed
 - The orange fade-in animation may show two different shades
+- When using the developer debug terminal leds may flicker
 
 ## Customizing
 
@@ -187,8 +188,8 @@ Please follow the [Unbrick guide](./BOSSA.md).
 - Some leds occasionally freeze if the led controller chip misbehaves
  - Unplugging and replugging the keyboard should fix the animations
 
-- When using the developer debug terminal leds may flicker
- - No current solution
+- High RF Interference may cause the board to reset
+ - Adding a choke may help. [See here](KiraRF.md)
 
 Firmware issues can be reported on [Github Issues](https://github.com/kiibohd/controller/issues).
 
