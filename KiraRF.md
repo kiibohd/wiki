@@ -31,7 +31,7 @@ However, mix 61 may be better if you can find it, as it is effective from 200-20
 
 ![Ring Removal](./images/kira/inside.png "Kira With Ring Removed")
 
-4. Clip your ferrite core around the red and black cables.
+4. Clip your ferrite core around the red and black cables. The ferrite should be close to the main keyboard circuit board rather than the smaller circuit board with the USB Type C connector. 
 
 ![Ring Removal](./images/kira/ferrite.png "Kira With Ring Removed")
 
