@@ -23,6 +23,7 @@
   - [Undo](Configurator/Undo.md)
   - [Loading / Saving](Configurator/LoadSave.md)
   - [Custom KLL](Configurator/Kll.md)
+  - [Quick Flash](Configurator/Quickflash.md)
 
 * Troubleshooting
   - [FAQ](FAQ.md)

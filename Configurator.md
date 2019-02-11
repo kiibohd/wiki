@@ -15,6 +15,7 @@ All releases are available on github: [Browse all](https://github.com/kiibohd/co
 - [Infinity 60% LED](https://input.club/devices/infinity-keyboard/)
 - [Infinity Ergodox](https://input.club/devices/infinity-ergodox/)
 - [K-Type](https://input.club/k-type/)
+- [Kira](https://kono.store/products/kira-mechanical-keyboard)
 - [WhiteFox](https://input.club/whitefox/)
 
 ### Other Keyboards
@@ -24,7 +25,7 @@ For manually porting to new keyboards see the [Development](Development.md) sect
 
 ## Customization
 
- - [Keys](Configurator/Keys.md) 
+ - [Keys](Configurator/Keys.md)
  - [LEDs](Configurator/Colors.md)
  - [Animations](Configurator/Animations.md)
  - [Macros](Configurator/Macros.md)
