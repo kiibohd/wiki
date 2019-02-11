@@ -1,3 +1,5 @@
+Quick Flash is useful when you want to try out a specific version of factory-default firmware or just want to flash firmware to a dfu supported device.
+
 1. Make sure you're at the home screen.
 
 ![select-home](../images/Configurator/quickflash/back-to-home.png)
