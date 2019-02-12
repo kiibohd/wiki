@@ -17,7 +17,7 @@
 
 - Plug back in your keyboard
 
-- Run the [Firmware Updater](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/kira-firmware-v0.5.3-installer.exe)
+- Run the [Firmware Updater](https://drive.google.com/uc?export=download&id=1UnkVE6B9xxdoVHARt57xvsdCjU7AtRHG) (**v0.5.4** *Feb 2019*)
 
 - Enter flash mode by pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd>,
   or by pressing the reset button on the bottom of the board
@@ -26,10 +26,12 @@
 
 Once in flash mode the orange led should be lit.
 ![bootloader-led](https://cdn.discordapp.com/attachments/325093040500768779/536057903631695882/IMG_20190118_214221278.jpg ':size=400%')
+
+*Old versions can be found: [here](https://drive.google.com/open?id=16xcBCLXziE_xtGMr_lXkA5gqLEUjYSKC)*
 
 #### ** Mac **
 
-- Run the [Firmware Updater](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/KiraFirmwareInstaller.app.zip)
+- Run the [Firmware Updater](https://drive.google.com/uc?export=download&id=15Na8t_u4O8tTK1tLip_aVB-E1cuVaYYp) (**v0.5.4** *Feb 2019*)
 
 - Enter flash mode by pressing <kbd>Right Shift</kbd> + <kbd>Right Control</kbd> + <kbd>Esc</kbd>,
   or by pressing the reset button on the bottom of the board
@@ -39,9 +41,11 @@ Once in flash mode the orange led should be lit.
 Once in flash mode the orange led should be lit.
 ![bootloader-led](https://cdn.discordapp.com/attachments/325093040500768779/536057903631695882/IMG_20190118_214221278.jpg ':size=400%')
 
+*Old versions can be found: [here](https://drive.google.com/open?id=1DDGFGd22UdYjQ1fEp7B-vbYrheurR0Jw)*
+
 #### ** Linux **
 
-- Download the [Firmware Updater](https://github.com/kiibohd/kiidrv/releases/download/v1.5.3-kiidrv/kira-firmware-v0.5.3-installer.tar.gz)
+- Download the [Firmware Updater](https://drive.google.com/uc?export=download&id=1eF_wv0RrWu_BfKMfz3xQlysUZZs0zNwt) (**v0.5.4** *Feb 2019*)
 
 - Extract the file
 
@@ -54,6 +58,8 @@ Once in flash mode the orange led should be lit.
 
 Once in flash mode the orange led should be lit.
 ![bootloader-led](https://cdn.discordapp.com/attachments/325093040500768779/536057903631695882/IMG_20190118_214221278.jpg ':size=400%')
+
+*Old versions can be found: [here](https://drive.google.com/open?id=17VZ90xKdOjmmNJRICWlIezg9hnpcwzmw)*
 
 <!-- tabs:end -->
 
