@@ -23,18 +23,28 @@ However, mix 61 may be better if you can find it, as it is effective from 200-20
 	
 ![Ring Removal](./images/Kira%20Back%20Frame%20off.jpg "Kira With Ring Removed")
 
-2. Once the ring is removed, lift the plate from the plastic clips.
-	
+2. Once the ring is removed, undo the 6 surrounding screws from the plate.
+
+![](https://i.imgur.com/yP9EMDw.jpg ':size=200%')
+![](https://i.imgur.com/shxL2eo.jpg ':size=200%')
+![](https://i.imgur.com/5kPzpEy.jpg ':size=200%')
+
+![](https://i.imgur.com/xtlKdJK.jpg ':size=200%')
+![](https://i.imgur.com/6Ny5AzU.jpg ':size=200%')
+![](https://i.imgur.com/FPuihwk.jpg ':size=200%')
+
+3. Undo the plastic clips.
+
 ![Ring Removal](./images/kira/clips.png "Kira With Ring Removed")
 
-3. Lift the front of the board to reveal the inside of the case. Be careful to not tug on the internal cable.
+4. Lift the front of the board to reveal the inside of the case. Be careful to not tug on the internal cable.
 
 ![Ring Removal](./images/kira/inside.png "Kira With Ring Removed")
 
-4. Clip your ferrite core around the red and black cables. The ferrite should be close to the main keyboard circuit board rather than the smaller circuit board with the USB Type C connector. 
+5. Clip your ferrite core around the red and black cables. The ferrite should be close to the main keyboard circuit board rather than the smaller circuit board with the USB Type C connector.
 
 ![Ring Removal](./images/kira/ferrite.png "Kira With Ring Removed")
 
-5. Lower the board back into the bottom housing and add the ring.
+6. Lower the board back into the bottom housing and add the ring.
 
 Please contact support@kono.store with any questions.
