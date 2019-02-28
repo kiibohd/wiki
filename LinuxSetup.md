@@ -37,8 +37,9 @@ Debugging
 Udev rules will allow you to flash your keyboard without needing to use sudo
 
 ```
-cp 98-kiibohd.rules /etc/udev/rules.d
-udevadm control --reload-rules
+sudo cp 98-kiibohd.rules /etc/udev/rules.d
+sudo udevadm control --reload-rules
+sudo udevadm trigger
 ```
 
 ## Arch Linux

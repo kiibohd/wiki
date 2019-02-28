@@ -24,11 +24,27 @@ Run the following command in a terminal:
 
  - `sudo apt-get install dfu-util`
 
+Download [https://raw.githubusercontent.com/kiibohd/controller/master/98-kiibohd.rules](https://raw.githubusercontent.com/kiibohd/controller/master/98-kiibohd.rules)
+
+```
+sudo cp 98-kiibohd.rules /etc/udev/rules.d
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+```
+
 #### ** Fedora **
 
 Run the following command in a terminal:
 
  - `sudo dnf install dfu-util`
+
+Download [https://raw.githubusercontent.com/kiibohd/controller/master/98-kiibohd.rules](https://raw.githubusercontent.com/kiibohd/controller/master/98-kiibohd.rules)
+
+```
+sudo cp 98-kiibohd.rules /etc/udev/rules.d
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+```
 
 #### ** Arch **
 
@@ -36,9 +52,25 @@ Run the following command in a terminal:
 
  - `sudo pacman -S dfu-util`
 
+Download [https://raw.githubusercontent.com/kiibohd/controller/master/98-kiibohd.rules](https://raw.githubusercontent.com/kiibohd/controller/master/98-kiibohd.rules)
+
+```
+sudo cp 98-kiibohd.rules /etc/udev/rules.d
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+```
+
 #### ** Other Linux **
 
-Install [dfu-util](http://dfu-util.sourceforge.net) using your systems package manager
+- Install [dfu-util](http://dfu-util.sourceforge.net) using your systems package manager
+
+- Download [https://raw.githubusercontent.com/kiibohd/controller/master/98-kiibohd.rules](https://raw.githubusercontent.com/kiibohd/controller/master/98-kiibohd.rules)
+
+```
+sudo cp 98-kiibohd.rules /etc/udev/rules.d
+sudo udevadm control --reload-rules
+sudo udevadm trigger
+```
 
 <!-- tabs:end -->
 
