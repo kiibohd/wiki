@@ -97,13 +97,15 @@ v1.0.0 **NEW**: [Download OSX App](https://github.com/kiibohd/configurator/relea
 #### ** Debian, Ubuntu, Mint **
 
 v1.0.0 **NEW**: [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
- - Run the file
-
+ - `chmod +x kiibohd-configurator-1.0.0-linux-x86_64.AppImage`
+ - `./kiibohd-configurator-1.0.0-linux-x86_64.AppImage`
+ 
 #### ** Fedora **
 
 v1.0.0 **NEW**: [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
- - Run the file
-
+ - `chmod +x kiibohd-configurator-1.0.0-linux-x86_64.AppImage`
+ - `./kiibohd-configurator-1.0.0-linux-x86_64.AppImage`
+ 
 #### ** Arch **
 
 v1.0.0 **NEW**:
