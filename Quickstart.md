@@ -96,18 +96,18 @@ v1.0.0 **NEW**: [Download OSX App](https://github.com/kiibohd/configurator/relea
 
 #### ** Debian, Ubuntu, Mint **
 
-v1.0.0 **NEW**: [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
+v1.0.0 **NEW**: [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
  - Run the file
 
 #### ** Fedora **
 
-v1.0.0 **NEW**: [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
+v1.0.0 **NEW**: [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
  - Run the file
 
 #### ** Arch **
 
 v1.0.0 **NEW**:
- - [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v0.4.1/kiibohd-configurator-0.4.1.tar.g://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
+ - [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v1.0.0/kiibohd-configurator-1.0.0-linux-x86_64.AppImage)
  - `chmod +x kiibohd-configurator-1.0.0-linux-x86_64.AppImage`
  - `./kiibohd-configurator-1.0.0-linux-x86_64.AppImage`
 
