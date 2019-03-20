@@ -33,10 +33,6 @@ Note: Screen can be installed with macports or homebrew. See [[Mac Setup|Mac Set
 Make sure the [Teensy Virtual Serial Port driver](http://pjrc.com/teensy/serial_install.exe) is installed.
 Windows 10+ has a driver built-in.
 
-If possible use [screen](http://cygwin.com/) (as part of Cygwin). Check which COM port the virtual serial port has
-been assigned to: `Device Manager->Ports (COM & LPT)->Teensy USB Serial`. In
-brackets it will say which COM port (e.g. COM3)
-
 [putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) works well when using DTR/DSR or RTS/CTS flow control.
 KiTTY has auto-reconnect feature so you don't have to reopen the window every refresh. Just don't type anything into a terminal while the port is inactive (read: controller is rebooting or frozen)
 
@@ -51,20 +47,6 @@ Under `Category->Connections->Serial`: `Flow control: DTR/DSR`.
 If stuff is hard to read (you have a dumb colour scheme):
 `Category->Window->Colours->Use system color`. That seems to make text at
 least readable
-
-> I use a custom colour scheme that makes each colour easy to see.
-> -HaaTa.
-
-Unfortunately, screen for Cygwin seems to be broken for serial ports, but you
-can try it...
-
-```bash
-$ screen /dev/ttyS2
-# Might be a different file, ttyS0, ttyACM0, ttyUSB0, etc.
-```
-
-Gnu screen doesn't seem to echo all the characters (it works though).
-I believe it's a problem with stty, but I don't know how to fix it...
 
 <!-- tabs:end -->
 
