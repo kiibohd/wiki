@@ -8,6 +8,6 @@
   - [Infinity 60%](Keyboards/Infinity60.md)
   - [Infinity Ergodox](Keyboards/InfinityErgodox.md)
   - [K-Type](Keyboards/K-Type.md)
-  - [Whitefox](Keyboards/Whitefox.md)
+  - [WhiteFox](Keyboards/WhiteFox.md)
   - [Kira](Keyboards/Kira.md)
   - [RE:Type](Keyboards/REType.md)
