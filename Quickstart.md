@@ -187,7 +187,7 @@ Pressing <kbd>Fn</kbd> + <kbd>Esc</kbd> will enter flash mode.
 
 ### Flashing
 
-Once in flash mode, the red (no keyboard is in flash mode) text should dissapear.
+Once in flash mode, the red (no keyboard is in flash mode) text should disappear.
 You can then press the purple flash button.
 
 ![flash](./images/configurator-flash.png "Compile Button")
