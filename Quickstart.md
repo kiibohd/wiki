@@ -74,7 +74,7 @@ sudo udevadm trigger
 
 <!-- tabs:end -->
 
-# Download the configurator
+# Download the IC Configurator
 
 <!-- tabs:start -->
 
