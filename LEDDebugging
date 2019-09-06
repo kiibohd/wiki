@@ -1,0 +1,24 @@
+Sometimes when soldering LEDs they some of them don't work.
+There can be a few causes of this.
+
+1. LED soldered in the wrong direction (polarity)
+2. Bad LED
+3. Damaged trace on the pcb (disconnect/short)
+4. Stray solder causing a short
+
+# Debugging LEDs
+
+Using the internal CLI it is possible to debug which LED(s) are not working.
+This is particularily important when checking whether the LEDs were soldered in the correct direction.
+
+1. Access CLI (TODO - Add link)
+2. Enable pixel test rotation mode
+```
+pixelTest r
+```
+3. If necessary slow the frame speed (1-255, higher number translates to a larger divider, slowing the frames down)
+```
+ledFPS 100
+```
+4. Check to make sure each LED turns on in order, starting from the top left going to the right, then wrapping to the next line.
+5. If any LEDs do not turn on or turn on unexpectedly, it is soldered in the wrong direction
