@@ -15,6 +15,7 @@ This is particularily important when checking whether the LEDs were soldered in 
 2. Make sure any animations are disabled.
 `aniStack` shows the active animations (this may vary depending on what has been flashed to your keyboard)
 `aniDel 0` removes the animation at the top of the stack (only call `aniDel 0` the same number of times as your stack otherwise some version of firmware may crash and you will have to do this step again).
+
 ```
 : aniStack
 INFO - Stack Size: 2
@@ -27,6 +28,7 @@ INFO - Stack Size: 2
 : aniStack
 INFO - Stack Size: 0
 ```
+
 3. Enable pixel test 'roll' mode
 ```
 pixelTest r
