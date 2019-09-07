@@ -42,4 +42,5 @@ ledFPS 100
 ## Example - WhiteFox
 
 This WhiteFox has 1 LED that has been soldered backwards.
-![WhiteFox LEDs]()
+
+![WhiteFox LEDs](images/whitefox_ledtest.gif)
