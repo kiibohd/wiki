@@ -30,6 +30,7 @@
   - [Flashing Firmware](Flashing.md)
   - [Unbricking](BOSSA.md)
   - [Known USB Issues](Issues.md)
+  - [LED Debugging](LEDDebugging.md)
 
 * Firmware (WIP)
   * Building
