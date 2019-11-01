@@ -1,6 +1,6 @@
 ![Kira](https://cdn.shopify.com/s/files/1/1994/3097/products/Gemini_Dusk_transparent_rectangular.png?v=1541918926)
 
-[![Preorder On Kono Store](https://cdn.discordapp.com/attachments/464630501374820372/512362426956513290/Preorder_on_Kono.png ':size=500%')](https://kono.store/products/gemini-dawn)
+[![Preorder On Kono Store](https://i.imgur.com/nJ2COIO.png ':size=500%')](https://kono.store/products/gemini-dawn)
 
 ## Flashing
 
