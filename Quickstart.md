@@ -181,6 +181,18 @@ Pressing <kbd>Fn</kbd> + <kbd>Esc</kbd> will enter flash mode.
 2.  With the keys down you should see a small hole on the the buttom of the board.
 3.  While the keyboard is plugged in, use a paperclip or other small object to press the button inside the case.
 
+## ** Gemini Dusk/Dawn **
+
+Pressing <kbd>Fn</kbd> + <kbd>Esc</kbd> will enter flash mode.
+
+#### Fallback Method
+
+[![ktype-flash](https://img.youtube.com/vi/i5wFVnEJcok/0.jpg)](https://www.youtube.com/watch?v=i5wFVnEJcok "WhiteFox Flashing Button Demonstration")
+
+1.  Flip your Keyboard over.
+2.  With the keys down you should see a small hole on the the far right middle edge.
+3.  While the keyboard is plugged in, use a paperclip or other small object to press the button inside the case through this hole.
+
 <!-- tabs:end -->
 
 ### Flashing
