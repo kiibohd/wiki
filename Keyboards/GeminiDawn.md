@@ -4,7 +4,10 @@
 
 ## Flashing
 
-Please follow the [Quickstart guide](Quickstart.md).
+Please download the appropriate Hexgears Configurator for your system:  
+[Hexgears Configurator Releases](https://github.com/hexgears/configurator/releases)
+
+Then please follow the [Quickstart guide](Quickstart.md), applying to the Hexgears Configurator instead of the IC Configurator.
 
 ## Layout
 
