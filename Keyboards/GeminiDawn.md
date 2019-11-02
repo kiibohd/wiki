@@ -7,7 +7,7 @@
 Please download the appropriate Hexgears Configurator for your operating system:  
 [Hexgears Configurator Releases](https://github.com/hexgears/configurator/releases)
 
-Then please follow the [Quickstart guide](Quickstart.md). The Hexgears and IC Configurators share the same functionality and features.
+Then please follow the [Quickstart guide](Quickstart.md). Instructions for both the Hexgears and IC configurator apply the same.
 
 ## Layout
 
