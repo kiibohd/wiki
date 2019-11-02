@@ -8,7 +8,7 @@
     - [Whitefox / Nightfox](Keyboards/WhiteFox.md)
     - [Kira](Keyboards/Kira.md)
     - [RE:Type](Keyboards/REType.md)
-  - Hex Gears
+  - Hexgears
     - [Gemini Dawn / Dusk](Keyboards/GeminiDawn.md)
 
 * Configurator
