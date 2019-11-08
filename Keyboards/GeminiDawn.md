@@ -29,3 +29,9 @@ Layer 2 is accessible with by holding Fn and right shift.
 ## Unbricking
 
 Please follow the [Unbrick guide](../BOSSA.md).
+
+## FAQ
+
+- White Backlighting Fix
+  - White Backlighting is bugged to be a little too red right now. We will be correcting this soon in a firmware update.
+  - Using this color code will produce a clean white light in the meantime: **#B9EEFF**
