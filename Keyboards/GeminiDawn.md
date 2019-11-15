@@ -28,7 +28,7 @@ Layer 2 is accessible with by holding Fn and right shift.
 
 ## Unbricking
 
-Please follow the [Unbrick guide](../BOSSA.md).
+Please follow the [Unbrick guide](BOSSA.md).
 
 ## Known Bugs
 
