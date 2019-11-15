@@ -32,7 +32,7 @@ Please follow the [Unbrick guide](BOSSA.md).
 
 Locations of Gemini parts:
 
-![Gemini Components](../imagesGeminiDawn/unbrick.png "Gemini unbricking component locations")
+![Gemini Components](../images/GeminiDawn/unbrick.png "Gemini unbricking component locations")
 
 ## Known Bugs
 
