@@ -22,13 +22,17 @@ Layer 1 is accessible with by holding the Fn key.
 ### Layer 2
 Layer 2 is accessible with by holding Fn and right shift.
 
-![layer1](../images/GeminiDawn/layer2.png "Gemini Dawn Layer 2")
+![layer2](../images/GeminiDawn/layer2.png "Gemini Dawn Layer 2")
 
 [hotswap](../Hotswap.md ':include')
 
 ## Unbricking
 
 Please follow the [Unbrick guide](BOSSA.md).
+
+Locations of Gemini parts:
+
+![Gemini Components](../imagesGeminiDawn/unbrick.png "Gemini unbricking component locations")
 
 ## Known Bugs
 
