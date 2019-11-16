@@ -12,6 +12,9 @@ Keyboards with sam4s based chips
 - RE:Type
 - Gemini Dawn / Dusk
 
+**Note: If your keyboard has multiple USB (out) ports, only one will function for BOSSA. Please try both ports if one doesn't function.**
+
+
 ## Erasing
 
 !> This procedure has the posiblity of leaving your keyboard in a bad state if you do not complete all steps.
