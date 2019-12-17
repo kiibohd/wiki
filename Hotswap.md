@@ -10,7 +10,7 @@ To replace the switches, use the following procedure:
  1. Remove the keycaps on the switches that you want to replace using the provided keycap puller.
  2. Using the provided switch removal tool, remove the switches from the switch plate by pushing the locking arms inward, then lifting the switch straight up. You can determine the sides with locking arms as the axis with the LED shine through hole. (Normally top and bottom of the switch relative to the board, unless they are mounted sideways).
  
-    Be sure to press firmly into the switch from both sides to ensure the locking arms clear the plate. Otherwise, it will be difficult to remove the switch. Do not pull excessively hard or at an angle as it can damage the underlying socket or bend the pins. When in doubt, press those notches deeply into the switch and pull cleanly upwards. After a few removals, most hot-swap sockets "break-in" and require less force.
+    Be sure to press firmly into the switch from both sides to ensure the locking arms clear the plate. Otherwise, it will be difficult to remove the switch. Do not pull excessively hard or at an angle as it can damage the underlying socket or bend the pins. When in doubt, press those notches deeply into the switch and pull cleanly upwards. After a few removals, most hot-swap sockets (and switches) "break-in" and require less force.
  
  ![switch-remover](../images/switch%20pull.jpg "Removing a Switch with the Kira switch removal tool.")
  
