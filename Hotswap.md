@@ -14,8 +14,8 @@ To replace the switches, use the following procedure:
  
  ![switch-remover](../images/switch%20pull.jpg "Removing a Switch with the Kira switch removal tool.")
  
- 3. Ensure that the replacement switch has undamaged pins that are straight and not bent. Some switches have very soft pins that bend easily, so caution should be observed.
- 4. Insert the new switch, positioning the switch pins to match the socket pins. Ensure that all sides of the switch are firmly on the plate.
+ 3. Ensure that the replacement switch has undamaged pins that are straight and not bent. Some switches have very soft pins that bend easily, so caution should be observed. If you insert the switch wrong, the pins can become bent. In this case simply rebend the pins as straight as possible using pliers or similar tool.
+ 4. Insert the new switch, positioning the switch pins to match the socket pins. Press straight down as to not bend the pins or damage the PCB on insertion. Ensure that all sides of the switch are firmly on the plate. 
  5. Put the keycaps back on the replaced switches.
 
 Note that the sockets are rated for 100 insertion cycles. While the sockets themselves may be replaced as well, the procedure requires good soldering skills and may void your warranty.
