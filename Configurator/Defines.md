@@ -19,6 +19,7 @@
 | Name | Default Value | Use |
 |--------|---------|-----|
 | ISSI_Global_Brightness | 255 | LED Brightness (0-255) |
+| ISSI_Enable | 1 | Enable (1) / Disable (0) LEDs by default. Can use LED Toggle key to change at runtime. |
 | LEDGamma | 2.2 | Color correction curve |
 | gamma_enabled | 0 | Use gamma correction. Off (0) / On (1) |
 | usbProtocol | 1 | Default keyboard mode. 6KRO (0) / NKRO (1) |
