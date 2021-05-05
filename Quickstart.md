@@ -82,39 +82,39 @@ sudo udevadm trigger
 
 ![configurator-install](./images/Configurator/install.png)
 
-v1.0.2 **NEW**: [Download Windows Configurator](https://github.com/kiibohd/configurator/releases/download/v1.0.2/kiibohd-configurator-1.0.2-win.exe)
+v1.1.0 **NEW**: [Download Windows Configurator](https://github.com/kiibohd/configurator/releases/download/v1.1.0/kiibohd-configurator-1.1.0-win.exe)
 
  - Fixes backend URL to use standard HTTP ports (works better with aggressive firewalls)
 
 #### ** Mac **
 
-v1.0.2 **NEW**: [Download OSX App](https://github.com/kiibohd/configurator/releases/download/v1.0.2/kiibohd-configurator-1.0.2-mac.dmg)
+v1.1.0 **NEW**: [Download OSX App](https://github.com/kiibohd/configurator/releases/download/v1.1.0/kiibohd-configurator-1.1.0-mac.dmg)
 
  - Fixes backend URL to use standard HTTP ports (works better with aggressive firewalls)
 
 #### ** Debian, Ubuntu, Mint **
 
-v1.0.2 **NEW**: [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v1.0.2/kiibohd-configurator-1.0.2-linux-x86_64.AppImage)
- - `chmod +x kiibohd-configurator-1.0.2-linux-x86_64.AppImage`
- - `./kiibohd-configurator-1.0.2-linux-x86_64.AppImage`
+v1.1.0 **NEW**: [https://github.com/kiibohd/configurator/releases/download/v1.1.0/kiibohd-configurator-1.1.0-linux-x86_64.AppImage)
+ - `chmod +x kiibohd-configurator-1.1.0-linux-x86_64.AppImage`
+ - `./kiibohd-configurator-1.1.0-linux-x86_64.AppImage`
  
 #### ** Fedora **
 
-v1.0.2 **NEW**: [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v1.0.2/kiibohd-configurator-1.0.2-linux-x86_64.AppImage)
- - `chmod +x kiibohd-configurator-1.0.2-linux-x86_64.AppImage`
- - `./kiibohd-configurator-1.0.2-linux-x86_64.AppImage`
+v1.1.0 **NEW**: [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v1.1.0/kiibohd-configurator-1.1.0-linux-x86_64.AppImage)
+ - `chmod +x kiibohd-configurator-1.1.0-linux-x86_64.AppImage`
+ - `./kiibohd-configurator-1.1.0-linux-x86_64.AppImage`
  
 #### ** Arch **
 
-v1.0.2 **NEW**:
- - [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v1.0.2/kiibohd-configurator-1.0.2-linux-x86_64.AppImage)
- - `chmod +x kiibohd-configurator-1.0.2-linux-x86_64.AppImage`
- - `./kiibohd-configurator-1.0.2-linux-x86_64.AppImage`
+v1.1.0 **NEW**:
+ - [Download AppImage](https://github.com/kiibohd/configurator/releases/download/v1.1.0/kiibohd-configurator-1.1.0-linux-x86_64.AppImage)
+ - `chmod +x kiibohd-configurator-1.1.0-linux-x86_64.AppImage`
+ - `./kiibohd-configurator-1.1.0-linux-x86_64.AppImage`
 
 #### ** Other Linux **
 
-v1.0.2 **NEW**:
- - [Download tar](https://github.com/kiibohd/configurator/releases/download/v1.0.2/kiibohd-configurator-1.0.2-linux-x64.tar.gz)
+v1.1.0 **NEW**:
+ - [Download tar](https://github.com/kiibohd/configurator/releases/download/v1.1.0/kiibohd-configurator-1.1.0-linux-x64.tar.gz)
  - Extract the file
  - Run `kiibohd-configurator`
 
