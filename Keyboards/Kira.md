@@ -1,6 +1,5 @@
 ![Kira](https://cdn.discordapp.com/attachments/394307335704543232/534901510283198474/Kira_Main_Image.png)
 
-[![Preorder On Kono Store](https://cdn.discordapp.com/attachments/464630501374820372/512362426956513290/Preorder_on_Kono.png ':size=500%')](https://kono.store/products/kira-mechanical-keyboard)
 
 ## Firmware Update
 
