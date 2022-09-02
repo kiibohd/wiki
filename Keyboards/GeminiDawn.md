@@ -1,4 +1,4 @@
-![Kira](https://cdn.shopify.com/s/files/1/1994/3097/products/Gemini_Dusk_transparent_rectangular.png?v=1541918926)
+![](https://cdn.shopify.com/s/files/1/1994/3097/products/Gemini_Dusk_transparent_rectangular.png?v=1541918926)
 
 [![Preorder On Kono Store](https://i.imgur.com/nJ2COIO.png ':size=500%')](https://kono.store/products/gemini-dawn)
 
